@@ -1,0 +1,14 @@
+---
+layout: default
+title: O blog pessoal do Flowck
+---
+
+<section>
+	{% for post in site.posts %}
+		<li>
+			<a href="{{ post.url }}">
+			<h3>{{ post.title }}</h3>
+			</a>
+		</li>
+	{% endfor %}
+</section>

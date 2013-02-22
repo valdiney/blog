@@ -1,0 +1,138 @@
+*{margin:0;padding:0;}
+body, html{
+	background-color:#EEE; 
+	height:100%;
+	font-family:'euphemia'; 
+}
+a{color:#555; text-decoration:none;}
+a:hover{color:#000;}
+#wrap{width:900px;margin:100px auto;border:solid 1px #000;}
+.tit{
+	width:500px;
+	margin:0 auto;
+	border:1px solid #000;
+}
+.tit2{
+	width:400px;
+	margin:0 auto;
+	border:1px solid green;
+}
+/*MENU PRINCIPAL*/
+nav{
+	width:450px;
+	margin:0 auto;
+	font-family:'basicl';
+	font-size:20px;
+	border:1px solid #000;
+}
+ul{
+	list-style:none;
+}
+ul li{
+	margin:0 0 0 22px;
+	cursor:pointer;
+	display:inline;
+}
+ul li ul{
+	position:absolute;
+	margin:3px 0 0 0;
+	opacity:0;
+	-webkit-transition:opacity 2s;
+	-moz-transition:opacity 2s;
+	-ms-transition:opacity 2s;
+	-o-transition:opacity 2s;
+	transition:opacity 2s; 
+}
+ul li ul li{
+	background-color:#666; 
+	color:#FFF;
+	padding:1px 3px;
+	border-radius:3px;
+	font-family:'arial';
+	font-size:16px;
+}
+/*FONTS EXTERNAS*/
+@font-face{
+	font-family:'basicl';
+	src:url('../fonts/basicl.woff');
+	src:url('../fonts/basicl.ttf');
+	src:url('../fonts/basicl.eot');
+}
+@font-face{
+	font-family:'euphemia';
+	src:url(../fonts/euphemia.eot);
+	src:url(../fonts/euphemia.ttf);
+}
+/*H-GROUP*/
+h1{
+	font-family:'basicl';
+	font-size:160px; 
+}
+h1 a{color:#000;}
+h1 a:hover{color:#666;}
+h2{
+	font-family:'basicl';
+	font-size:60px;
+	color:#666; 
+}
+/*CONTEUDO*/
+#conteudo{
+	width:100%; 
+	margin:50px 0 50px 0;
+	/*border:solid 1px red;*/
+}
+.post{
+	width:80%;
+	height:130px;
+	background-image:url(../img/2.png); 
+	margin:0 auto;
+	border-radius:10px;
+}
+.left-img{
+	float:left;
+	width:200px;
+	height:90%;
+	border:1px solid orange;
+	margin:5px 0 0 0;
+}
+.right-text{
+	float:right;
+	width:500px;
+	height:90%;
+	border:1px solid orange;
+	margin:5px 0 0 0;
+}
+/*RODAPE*/
+footer{
+	width:290px;
+	height:20px; 
+	border:1px solid blue;
+	margin:0 auto;
+	font-family:helvetica; 
+	color:#666;
+}
+
+/*SOCIAL*/
+#so1, #so2, #so3{
+	padding:2px 5px;
+	position:absolute;
+	margin:-23px 0 0 -50px;
+	background-color:#666; 
+	color:#fff;
+	border-radius:3px;
+	opacity:0;
+	-webkit-transition:opacity 2s;
+	-moz-transition:opacity 2s;
+	-ms-transition:opacity 2s;
+	-o-transition:opacity 2s;
+	transition:opacity 2s;
+}
+
+/*#ani1,#ani2,#ani3,#ani4{
+	opacity:0;
+	-webkit-transition:opacity 2s;
+	-moz-transition:opacity 2s;
+	-ms-transition:opacity 2s;
+	-o-transition:opacity 2s;
+	transition:opacity 2s;
+}*/

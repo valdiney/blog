@@ -1,23 +1,60 @@
 <!doctype html>
 <html lang="pt">
 <head>
-	<title>O blog pessoal do Flowck</title>
+	<title>Flowck | Blog</title>
+	<link rel="stylesheet" href="css/master.css">
 </head>
-<body style="background-color:#eee;">
-	<section>
+<body>
+	<div id="wrap">
+	<header>
+		<div class="tit" id="ani1"><h1><a href="index.html">FLOWCK</a></h1></div>
+			<nav id="ani2">
+				<ul>
+					<li><a href="">ARQUIVO</a></li>
+					<li id="quemsou" onMouseOver="submenu()" onMouseOut="submenu2()"><a href="quem_sou.html">QUEM SOU</a>
+					<ul id="submenu1"><li>habilidades</li></ul>
+					</li>
+					<li><a href="projectos.html">PROJECTOS</a></li>
+					<li><a href="falecomigo.html">FALE COMIGO</a></li>
+				</ul>
+			</nav>
+	</header>
+	<section id="conteudo">
+		<!--<section>
 	
 		<li>
 			<a href="/2013/02/20/bikes.html">
 			<h3>Bikes, Black and White</h3>
+			<h4>2013-02-20 00:00:00 +0100</h4>
 			</a>
 		</li>
 	
 		<li>
 			<a href="/2013/01/02/wings.html">
 			<h3>Wing and a Prayer</h3>
+			<h4>2013-01-02 00:00:00 +0100</h4>
 			</a>
 		</li>
 	
-</section>
+</section>-->
+<article class="post">
+	<div class="left-img"></div>
+	<div class="right-text"></div>
+</article>
+	</section>
+	<footer>
+		<ul id="ani4">
+			<li id="facebook" onMouseOver="social_on1()" onMouseOut="social_off1()">/flowck.ii
+				<span id="so1">facebook</span>
+			</li>
+			<li onMouseOver="social_on2()" onMouseOut="social_off2()">@flowckII2
+				<span id="so2">twitter</span>
+			</li>
+			<li onMouseOver="social_on3()" onMouseOut="social_off3()">Flowck
+				<span id="so3">github</span>
+			</li>
+		</ul>
+	</footer>
+	</div>
 </body>
 </html>

@@ -1,43 +1,45 @@
 <!doctype html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<title>{{page.title}} - Flowck</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" type="text/css" href="css/master.
-		css"/>
-		<script type="text/javascript" src="js/flowck.js"></script>
-	</head>
-	<body id="corpo">
-		<div id="wrap">
-			<header>
-				<div class="tit" id="ani1"><h1><a href="index.html">FLOWCK</a></h1></div>
-				<nav id="ani2">
-					<ul>
-						<li id="quemsou" onMouseOver="submenu()" onMouseOut="submenu2()"><a href="quem_sou.html">QUEM SOU</a>
-							<ul id="submenu1"><li>habilidades</li></ul>
-						</li>
-						<li><a href="projectos.html">PROJECTOS</a></li>
-						<li><a href="falecomigo.html">FALE COMIGO</a></li>
-					</ul>
-				</nav>
-			</header>
-			<section id="conteudo">
-				<div class="tit2" id="ani3"><h2>WEB DEVELOPER</h2></div>
-			</section>
-			<footer>
-					<ul id="ani4">
-						<li id="facebook" onMouseOver="social_on1()" onMouseOut="social_off1()">/flowck.ii
-							<span id="so1">facebook</span>
-						</li>
-						<li onMouseOver="social_on2()" onMouseOut="social_off2()">@flowckII2
-							<span id="so2">twitter</span>
-						</li>
-						<li onMouseOver="social_on3()" onMouseOut="social_off3()">Flowck
-							<span id="so3">github</span>
-						</li>
-					</ul>
-			</footer>
-		</div>
-	</body>
+<html lang="pt">
+<head>
+	<meta charset="UTF-8" />
+	<title>Flowck | {{ post.title }}</title>
+	<link rel="stylesheet" href="../../../../css/master.css">
+</head>
+<body>
+	<div id="wrap">
+	<header>
+		<div class="tit" id="ani1"><h1><a href="index.html">FLOWCK</a></h1></div>
+			<nav id="ani2">
+				<ul>
+					<li><a href="">ARQUIVO</a></li>
+					<li id="quemsou" onMouseOver="submenu()" onMouseOut="submenu2()"><a href="quem_sou.html">QUEM SOU</a>
+					<ul id="submenu1"><li>habilidades</li></ul>
+					</li>
+					<li><a href="projectos.html">PROJECTOS</a></li>
+					<li><a href="falecomigo.html">FALE COMIGO</a></li>
+				</ul>
+			</nav>
+	</header>
+	<section id="conteudo">
+		<article class="post-full">
+			<h2>{{page.title}}</h2>
+			<img src="../../../{{page.image}}">
+			{{content}}
+		</article>
+	</section>
+	<footer>
+		<ul id="ani4">
+			<li id="facebook" onMouseOver="social_on1()" onMouseOut="social_off1()">/flowck.ii
+				<span id="so1">facebook</span>
+			</li>
+			<li onMouseOver="social_on2()" onMouseOut="social_off2()">@flowckII2
+				<span id="so2">twitter</span>
+			</li>
+			<li onMouseOver="social_on3()" onMouseOut="social_off3()">Flowck
+				<span id="so3">github</span>
+			</li>
+		</ul>
+	</footer>
+	</div>
+</body>
 </html>

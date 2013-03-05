@@ -6,16 +6,14 @@ body, html{
 }
 a{color:#555; text-decoration:none;}
 a:hover{color:#000;}
-#wrap{width:900px;margin:100px auto;border:solid 1px #000;}
+#wrap{width:900px;margin:100px auto;}
 .tit{
 	width:500px;
-	margin:0 auto;
-	border:1px solid #000;
+	margin:0 auto;	
 }
 .tit2{
 	width:400px;
 	margin:0 auto;
-	border:1px solid green;
 }
 /*MENU PRINCIPAL*/
 nav{
@@ -23,7 +21,6 @@ nav{
 	margin:0 auto;
 	font-family:'basicl';
 	font-size:20px;
-	border:1px solid #000;
 }
 ul{
 	list-style:none;
@@ -71,42 +68,90 @@ h1{
 h1 a{color:#000;}
 h1 a:hover{color:#666;}
 h2{
-	font-family:'basicl';
-	font-size:60px;
-	color:#666; 
+	color:#FFF; 
+	text-shadow:1px 1px 3px #333;
+}
+h3{
+	font-size:20px;
+	text-shadow:1px 1px 3px #333;
+	color:#FFF;
+	text-align:center;
 }
 /*CONTEUDO*/
 #conteudo{
 	width:100%; 
 	margin:50px 0 50px 0;
-	/*border:solid 1px red;*/
 }
-.post{
+/*ESTILOS DO POST*/
+.post, .post-full{
 	width:80%;
-	height:130px;
-	background-image:url(../img/2.png); 
-	margin:0 auto;
+	height:137px;
+	margin:10px auto;
+	background-color:#666;
 	border-radius:10px;
 }
+.post-full{
+	height:auto;
+	text-align:center;
+}
+.post-full p{color:#FFF;}
+.post-full h2{
+	color:#FFF;
+	font-size:50px;
+	font-family:'euphemia';
+	text-shadow:1px 1px 3px #333;
+}
+.post-full a{
+	color:#000;
+}
+.post-full a:hover{
+	color:#EEE;
+}
+.post-full img{
+	width:500px;
+	height:290px;
+	border:5px solid #EEE;
+	border-radius:5px;
+}
+.post-full .post-img{
+	width:500px;
+	height:290px;
+	margin:0 auto;
+}
+.post-full .post-content{
+	width:90%;
+	margin:10px auto;
+	text-align:left;
+}
+
 .left-img{
 	float:left;
 	width:200px;
 	height:90%;
-	border:1px solid orange;
-	margin:5px 0 0 0;
+	margin:5px 0 0 5px;
+}
+.left-img img{
+	border:5px solid #EEE;
+	border-radius:5px;
 }
 .right-text{
 	float:right;
 	width:500px;
 	height:90%;
-	border:1px solid orange;
 	margin:5px 0 0 0;
+}
+.right-text p{
+	color:#FFF;
+	font-size:15px;
+}
+.info-extra{
+	font-style:italic;
+	font-size:10px;
 }
 /*RODAPE*/
 footer{
 	width:290px;
 	height:20px; 
-	border:1px solid blue;
 	margin:0 auto;
 	font-family:helvetica; 
 	color:#666;

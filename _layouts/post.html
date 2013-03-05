@@ -2,7 +2,7 @@
 <html lang="pt">
 <head>
 	<meta charset="UTF-8" />
-	<title>Flowck | {{ post.title }}</title>
+	<title>{{ page.title }} | Flowck</title>
 	<link rel="stylesheet" href="../../../../css/master.css">
 </head>
 <body>
@@ -12,7 +12,7 @@
 			<nav id="ani2">
 				<ul>
 					<li><a href="">ARQUIVO</a></li>
-					<li id="quemsou" onMouseOver="submenu()" onMouseOut="submenu2()"><a href="quem_sou.html">QUEM SOU</a>
+					<li id="quemsou" onMouseOver="submenu()" onMouseOut="submenu2()"><a href="../../../quem_sou.html">QUEM SOU</a>
 					<ul id="submenu1"><li>habilidades</li></ul>
 					</li>
 					<li><a href="projectos.html">PROJECTOS</a></li>
@@ -22,9 +22,13 @@
 	</header>
 	<section id="conteudo">
 		<article class="post-full">
-			<h2>{{page.title}}</h2>
-			<img src="../../../{{page.image}}">
-			{{content}}
+			<h2>{{page.title | upcase}}</h2>
+			<div class="post-img">
+					<img src="../../../{{page.image}}">
+			</div>
+			<div class="post-content">
+				{{content}}
+			</div>
 		</article>
 	</section>
 	<footer>

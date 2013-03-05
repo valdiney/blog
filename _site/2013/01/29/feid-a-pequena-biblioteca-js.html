@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="pt">
+<head>
+	<meta charset="UTF-8" />
+	<title>fei-d, a pequena biblioteca .js | Flowck</title>
+	<link rel="stylesheet" href="../../../../css/master.css">
+</head>
+<body>
+	<div id="wrap">
+	<header>
+		<div class="tit" id="ani1"><h1><a href="index.html">FLOWCK</a></h1></div>
+			<nav id="ani2">
+				<ul>
+					<li><a href="">ARQUIVO</a></li>
+					<li id="quemsou" onMouseOver="submenu()" onMouseOut="submenu2()"><a href="../../../quem_sou.html">QUEM SOU</a>
+					<ul id="submenu1"><li>habilidades</li></ul>
+					</li>
+					<li><a href="projectos.html">PROJECTOS</a></li>
+					<li><a href="falecomigo.html">FALE COMIGO</a></li>
+				</ul>
+			</nav>
+	</header>
+	<section id="conteudo">
+		<article class="post-full">
+			<h2>FEI-D, A PEQUENA BIBLIOTECA .JS</h2>
+			<div class="post-img">
+					<img src="../../../img/7.jpg">
+			</div>
+			<div class="post-content">
+				<p>Em tempos estive a planejar o meu personal website e a pensar no UI/UX do mesmo, cheguei a um dado ponto onde teria que usar alguns efeitos em elementos da pagina, no caso o fade-in e o fade-out muito famosos por causa do jQuery.</p>
+
+<p>Aplicar estes efeitos por meio do jQuery é extremamente fácil, mas eu não queria usar este framework no meu website. Afinal de contas com as tecnologias que hoje possuímos não há motivos para usarmos o jQuery pra realizar apenas fade-in e out, estaríamos a usar apenas 2% do que ele nos oferece.</p>
+
+<p>Eu queria algo muito simples, então decidi criar uma pequena biblioteca que realizasse o fade-in e out utilizando css3(opacity/transition). Eis o <a href='https://github.com/Flowck/fei-d'>fei-d.js</a> uma lib. que permite aplicar o efeito fade-in e fade-out em elementos html.</p>
+
+<h3 id='como_usar'>COMO USAR</h3>
+
+<p>A sua sintaxe é: feid(elemento, duração).</p>
+
+<p>Elemento: consiste num elemento html na qual nos pretendemos aplicar o efeito.</p>
+
+<p>Duração: é o valor que determina o tempo de duração da animação</p>
+
+<p>Exemplo1:</p>
+<section id='meuElemento' />
+<p>var meuEle = document.getElementById(&#8216;meuElemento&#8217;);</p>
+
+<p>feid(meuEle, 2);<code></code></p>
+			</div>
+		</article>
+	</section>
+	<footer>
+		<ul id="ani4">
+			<li id="facebook" onMouseOver="social_on1()" onMouseOut="social_off1()">/flowck.ii
+				<span id="so1">facebook</span>
+			</li>
+			<li onMouseOver="social_on2()" onMouseOut="social_off2()">@flowckII2
+				<span id="so2">twitter</span>
+			</li>
+			<li onMouseOver="social_on3()" onMouseOut="social_off3()">Flowck
+				<span id="so3">github</span>
+			</li>
+		</ul>
+	</footer>
+	</div>
+</body>
+</html>

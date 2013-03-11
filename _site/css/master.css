@@ -4,12 +4,15 @@ body, html{
 	height:100%;
 	font-family:'euphemia'; 
 }
-a{color:#555; text-decoration:none;}
+a{
+	color:#555;
+	text-decoration:none;
+}
 a:hover{color:#000;}
 #wrap{width:900px;margin:100px auto;}
 .tit{
-	width:500px;
-	margin:0 auto;	
+	width:700px;
+	margin:0 auto;
 }
 .tit2{
 	width:400px;
@@ -60,13 +63,23 @@ ul li ul li{
 	src:url(../fonts/euphemia.eot);
 	src:url(../fonts/euphemia.ttf);
 }
+@font-face{
+	font-family:'Black';
+	src:url(../fonts/blackoakstd.otf);
+}
 /*H-GROUP*/
 h1{
-	font-family:'basicl';
-	font-size:160px; 
+	font-family:'black';
+	font-size:50px;
 }
-h1 a{color:#000;}
-h1 a:hover{color:#666;}
+h1 a{
+	color:#333;
+	text-shadow:1px 1px 10px #666;
+	-webkit-transition: color 1s;
+}
+h1 a:hover{
+	color:#666;
+}
 h2{
 	color:#FFF; 
 	text-shadow:1px 1px 3px #333;

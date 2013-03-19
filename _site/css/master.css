@@ -1,3 +1,22 @@
+/*FONTS EXTERNAS*/
+@font-face{
+	font-family:'basicl';
+	src:url(../fonts/basicl.ttf);
+	src:url(../fonts/basicl.woff);
+	/*
+	;
+	src:url(../fonts/basicl.eot);
+	*/
+}
+@font-face{
+	font-family:'open';
+	src:url(../fonts/OpenSans-Regular.ttf);
+}
+@font-face{
+	font-family:'Black';
+	src:url(../fonts/blackoakstd.otf);
+}
+
 *{margin:0;padding:0;}
 body, html{
 	background-color:#EEE; 
@@ -23,7 +42,7 @@ nav{
 	width:450px;
 	margin:0 auto;
 	font-family:"basicl";
-	font-size:20px;
+	font-size:18px;
 }
 ul{
 	list-style:none;
@@ -51,21 +70,6 @@ ul li ul li{
 	font-family:'arial';
 	font-size:16px;
 }
-/*FONTS EXTERNAS*/
-@font-face{
-	font-family:'basicl';
-	src:url(../fonts/basicl.woff);
-	src:url(../fonts/basicl.ttf);
-	src:url(../fonts/basicl.eot);
-}
-@font-face{
-	font-family:'open';
-	src:url(../fonts/OpenSans-Regular.ttf);
-}
-@font-face{
-	font-family:'Black';
-	src:url(../fonts/blackoakstd.otf);
-}
 /*H-GROUP*/
 h1{
 	font-family:'black';
@@ -75,6 +79,10 @@ h1 a{
 	color:#333;
 	text-shadow:1px 1px 10px #666;
 	-webkit-transition: color 1s;
+	-moz-transition: color 1s;
+	-ms-transition: color 1s;
+	-o-transition: color 1s;
+	transition: color 1s;
 }
 h1 a:hover{
 	color:#666;
@@ -110,7 +118,6 @@ h3{
 .post-full h2{
 	color:#FFF;
 	font-size:50px;
-	font-family:'euphemia';
 	text-shadow:1px 1px 3px #333;
 }
 .post-full a{

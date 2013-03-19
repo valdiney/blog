@@ -2,7 +2,7 @@
 body, html{
 	background-color:#EEE; 
 	height:100%;
-	font-family:'euphemia'; 
+	font-family:"open"; 
 }
 a{
 	color:#555;
@@ -22,7 +22,7 @@ a:hover{color:#000;}
 nav{
 	width:450px;
 	margin:0 auto;
-	font-family:'basicl';
+	font-family:"basicl";
 	font-size:20px;
 }
 ul{
@@ -54,14 +54,13 @@ ul li ul li{
 /*FONTS EXTERNAS*/
 @font-face{
 	font-family:'basicl';
-	src:url('../fonts/basicl.woff');
-	src:url('../fonts/basicl.ttf');
-	src:url('../fonts/basicl.eot');
+	src:url(../fonts/basicl.woff);
+	src:url(../fonts/basicl.ttf);
+	src:url(../fonts/basicl.eot);
 }
 @font-face{
-	font-family:'euphemia';
-	src:url(../fonts/euphemia.eot);
-	src:url(../fonts/euphemia.ttf);
+	font-family:'open';
+	src:url(../fonts/OpenSans-Regular.ttf);
 }
 @font-face{
 	font-family:'Black';

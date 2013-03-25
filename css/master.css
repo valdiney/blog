@@ -3,10 +3,6 @@
 	font-family:'basicl';
 	src:url(../fonts/basicl.ttf);
 	src:url(../fonts/basicl.woff);
-	/*
-	;
-	src:url(../fonts/basicl.eot);
-	*/
 }
 @font-face{
 	font-family:'open';
@@ -14,6 +10,7 @@
 }
 @font-face{
 	font-family:'Black';
+	src:url(../fonts/blackoakstd.ttf);
 	src:url(../fonts/blackoakstd.otf);
 }
 

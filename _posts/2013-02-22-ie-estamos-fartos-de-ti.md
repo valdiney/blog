@@ -1,6 +1,7 @@
 ---
 layout: post
 title: IE, estamos fartos de ti.
+categoria: Browsers
 tags: ie, problemas, suporte
 image: img/5.jpg
 ---

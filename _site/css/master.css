@@ -1,7 +1,7 @@
 /*FONTS EXTERNAS*/
 @font-face{
 	font-family:'basicl';
-	src:url(../fonts/basicl.ttf);
+	src:url(../fonts/basicl.ttf) format('truetype');
 	src:url(../fonts/basicl.woff);
 }
 @font-face{
@@ -10,8 +10,7 @@
 }
 @font-face{
 	font-family:'Black';
-	src:url(../fonts/blackoakstd.ttf);
-	src:url(../fonts/blackoakstd.otf);
+	src:url(../fonts/AlfaSlabOne-Regular.ttf);
 }
 
 *{margin:0;padding:0;}
@@ -70,7 +69,7 @@ ul li ul li{
 /*H-GROUP*/
 h1{
 	font-family:'black';
-	font-size:50px;
+	font-size:112px;
 }
 h1 a{
 	color:#333;

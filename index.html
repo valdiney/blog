@@ -10,7 +10,7 @@ title: Flowck | Blog
 	</div>
 	<div class="right-text">
 		<a href="{{post.url}}"><h2>{{post.title}}</h2></a>
-		<p class="info-extra">publicado em: {{post.date | date:"%d-%m-%y"}} | categoria: {{post.categoria}} <br> Tags: {{post.tags}}</p>
+		<p class="info-extra">publicado em: <span>{{post.date | date:"%d-%m-%y"}}</span> <br> categoria: <span>{{post.categoria}}</span> <br> Tags: <span>{{post.tags}}</span></p>
 	</div>
 </article>
 {% endfor %}

@@ -161,8 +161,10 @@ h3{
 	font-size:15px;
 }
 .info-extra{
-	font-style:italic;
 	font-size:10px;
+}
+.info-extra span{
+	font-style:italic;
 }
 /*RODAPE*/
 footer{

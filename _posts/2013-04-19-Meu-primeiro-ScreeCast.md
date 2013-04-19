@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Meu primeiro ScreenCast
-image: 
+image: img/8.jpg
 categoria: PHP
 tags: md5, php, segurança
 ---

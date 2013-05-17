@@ -81,7 +81,7 @@ h1 a{
 	transition: color 1s;
 }
 h1 a:hover{
-	color:#666;
+	color:#222;
 }
 h2{
 	color:#FFF; 

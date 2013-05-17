@@ -1,0 +1,60 @@
+@font-face{
+	font-family:'Black';
+	src:url(../fonts/AlfaSlabOne-Regular.ttf);
+}
+@font-face{
+	font-family:'open';
+	src:url(../fonts/OpenSans-Regular.ttf);
+}
+body{
+	background-color:#EEE;
+}
+.wrap{
+	width:712px;
+	margin:0 auto;
+	text-align:center;
+}
+h1{
+	font-family:'Black';
+	font-size:112px;
+	color:#333;
+	text-shadow:1px 1px 10px #666;
+	-webkit-transition: color 1s;
+	-moz-transition: color 1s;
+	-ms-transition: color 1s;
+	-o-transition: color 1s;
+	transition: color 1s;
+	cursor:pointer;
+	-webkit-animation-name: maIn;
+	-webkit-animation-duration: 5s;
+	animation-name: maIn;
+	animation-duration: 5s;
+}
+h1:hover{
+	color:#666;
+}
+p{
+	font-family:'open';
+	margin:-100px 0 0 0;
+	color:#666;
+	-webkit-animation-name: maIn;
+	-webkit-animation-duration: 10s;
+	animation-name: maIn;
+	animation-duration: 10s;
+}
+@-webkit-keyframes maIn{
+	from{
+		opacity:0;
+	}	
+	to{
+		opacity:1;
+	}
+}
+@keyframes maIn{
+	from{
+		opacity:0;
+	}	
+	to{
+		opacity:1;
+	}
+}

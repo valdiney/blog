@@ -2,12 +2,14 @@
 	font-family:'Black';
 	src:url(../fonts/AlfaSlabOne-Regular.ttf);
 }
-@font-face{
+/*@font-face{
 	font-family:'open';
 	src:url(../fonts/OpenSans-Regular.ttf);
-}
+}*/
 body{
 	background-color:#EEE;
+	font-family: 'Open Sans', sans-serif;
+	color:#666;
 }
 .wrap{
 	width:712px;
@@ -33,14 +35,17 @@ h1{
 h1:hover{
 	color:#222;
 }
-p{
-	font-family:'open';
-	margin:-100px 0 0 0;
-	color:#666;
+.slogan{
+	margin:-100px 0 0 0;	
 	-webkit-animation-name: maIn;
 	-webkit-animation-duration: 10s;
 	animation-name: maIn;
 	animation-duration: 10s;
+}
+#loading{
+	width:150px;
+	height:150px;
+	margin:0 auto;
 }
 @-webkit-keyframes maIn{
 	from{

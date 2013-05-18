@@ -4,9 +4,9 @@ Meu blog pessoal abordando minhas experiencias, conhecimentos, e alguns momentos
 
 ## RE-DESIGN
 
-A nova interface do blog é baseada no meu site pessoal.
+A nova interface do blog possui um conceito minimalista, focando-se totalmente para o conteúdo.
 
-## ENGINE
+## BLOG ENGINE
 
 O jekyll é a nova engine do blog substituindo o wordpress que não era mais necessario devio o tamanho do blog, performance e segurança (não há nada para invadir).
 

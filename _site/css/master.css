@@ -150,6 +150,11 @@ h3{
 	border:5px solid #EEE;
 	border-radius:5px;
 }
+/*Video*/
+iframe{
+	border:5px solid #EEE;
+	border-radius:5px;
+}
 .right-text{
 	float:right;
 	width:500px;

@@ -1,4 +1,2 @@
-(function(){
-	var c = document.getElementById('content');
-	console.log(c.innerHTML);
-}())
+var stringDiv = document.getElementById('post-content');
+console.log(stringDiv.value);

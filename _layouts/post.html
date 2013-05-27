@@ -2,17 +2,18 @@
 <html lang="pt">
 <head>
 	<meta charset="UTF-8" />
-	<title>{{ page.title }} | Flowck</title>
+	<title>{{ page.title }} - WebVisão</title>
 	<link rel="stylesheet" href="../../../../css/master.css">
 </head>
 <body>
+	<div id="search"></div>
 	<div id="wrap">
 	<header>
 		<div class="tit" id="ani1"><h1><a href="../../../../index.html">WEBVISÃO</a></h1></div>
 			<nav id="ani2">
 				<ul>
 					<li><a href="">ARQUIVO</a></li>
-					<li><a href="projectos.html">PROJECTOS</a></li>
+					<li><a href="../../../../sobre.html">SOBRE</a></li>
 				</ul>
 			</nav>
 	</header>
@@ -22,9 +23,13 @@
 			<div class="post-img">
 					<img src="../../../{{page.image}}">
 			</div>
-			<div class="post-content">
+			<div class="post-content" id="post-content">
 				{{content}}
 			</div>
 		</article>
 	</section>
+	<script>
+		var stringDiv = document.getElementById('post-content');
+		console.log(stringDiv.value);
+	</script>
 {% include footer.html %}

@@ -24,7 +24,7 @@
 body, html{
 	background-color:#EEE; 
 	height:100%;
-	font-family:"open"; 
+	font-family:"open", sans-serif; 
 }
 #search{
 	width:100%;
@@ -120,7 +120,7 @@ h3{
 	height:137px;
 	margin:10px auto;
 	background-color:#666;
-	border-radius:10px;
+	/*border-radius:10px;*/
 }
 .post-full{
 	height:auto;
@@ -142,14 +142,14 @@ h3{
 	color:#EEE;
 }
 .post-full img{
-	width:500px;
-	height:290px;
-	border:5px solid #EEE;
-	border-radius:5px;
+	width:721px;
+	height:300px;
+	/*border:5px solid #EEE;
+	border-radius:5px;*/
 }
 .post-full .post-img{
-	width:500px;
-	height:290px;
+	width:721px;
+	height:300px;
 	margin:0 auto;
 }
 .post-full .post-content{
@@ -171,8 +171,10 @@ h3{
 	margin:5px 0 0 5px;
 }
 .left-img img{
-	border:5px solid #EEE;
-	border-radius:5px;
+	width: 200px;
+	height: 117px;
+	border-right:5px solid #EEE;
+	/*border-radius:5px;*/
 }
 /*Video*/
 iframe{

@@ -20,7 +20,7 @@
 #wrap{
 	width:900px;
 	margin:50px auto;
-	border:1px solid red;
+	/*border:1px solid red;*/
 }
 body, html{
 	background-color:#EEE; 
@@ -114,7 +114,8 @@ h3{
 /*CONTEUDO*/
 .wrap2{
 	width:900px;
-	margin:50px auto;
+	margin:-50px auto;
+	/*border:1px solid green;*/
 }
 
 #conteudo{
@@ -178,8 +179,25 @@ h3{
 	width: 240px;
 	height: 100%;
 }
-
-
+/*Sprites*/
+.sprites{
+	background-image:url(../img/sprites.png);
+	background-size:40px, 40px;
+	width: 20px;
+	height: 18px;
+}
+.data{
+	background-position: -20px -56px;
+}
+.tags{
+	background-position: 0px -18px;
+}
+.autor{
+	background-position: -20px 0;
+}
+.commentarios{
+	background-position: 5px -1px;
+}
 /*Video*/
 iframe{
 	border:5px solid #EEE;
@@ -187,7 +205,7 @@ iframe{
 }
 .right-text{
 	float:right;
-	width:500px;
+	width:600px;
 	height:90%;
 	color:#FFF;
 	margin:5px 0 0 0;
@@ -195,12 +213,16 @@ iframe{
 .right-text p{
 	font-size:15px;
 }
-
+.resumo{
+	width:99%;
+	height:90px;
+	/*border:1px solid blue;*/
+}
 .info_about_post ul{
 	font-size:13px;
-	width:100%;
+	width:99%;
 	height:20px;
-	border:1px solid red;
+	/*border:1px solid red;*/
 }
 
 .info_about_post ul li{

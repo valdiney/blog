@@ -5,6 +5,7 @@ categoria: Browsers
 tags: ie, problemas, suporte
 image: img/5.jpg
 resumo: É sonho de todo o desenvolvedor web viver num mundo em que os usuários
+autor: Flowck
 ---
 
 É sonho de todo o desenvolvedor web viver num mundo em que os usuários apenas acessam a web com browsers modernos, dentre eles que nenhum estivesse a utilizar o IE, porque mesmo na sua 9ª versão ainda apresenta muitas debilidades para renderizar ou reconhecer algumas funcionalidades dos queridos HTML5 e CSS3.

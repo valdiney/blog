@@ -4,6 +4,7 @@ title: fei-d, a pequena biblioteca .js
 image: img/7.jpg
 categoria: Javascript
 tags: js, library, efeitos
+autor: Flowck
 ---
 
 Em tempos estive a planejar o meu personal website e a pensar no UI/UX do mesmo, cheguei a um dado ponto onde teria que usar alguns efeitos em elementos da pagina, no caso o fade-in e o fade-out muito famosos por causa do jQuery.
@@ -22,8 +23,6 @@ Duração: é o valor que determina o tempo de duração da animação
 
 Exemplo1:
 
-<section id="meuElemento"></section>
-
-var meuEle = document.getElementById('meuElemento');
-
-feid(meuEle, 2);`
+	<section id="meuElemento"></section>
+	var meuEle = document.getElementById('meuElemento');
+	feid(meuEle, 2);`

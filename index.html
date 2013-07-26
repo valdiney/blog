@@ -4,13 +4,25 @@ title: WebVisão - Outras formas de entender a Web
 ---
 
 {% for post in site.posts %}
+<!-- Inicio do wrap do contéudo -->
+<div class="wrap2">
 <article class="post">
 	<div class="left-img">
 		<img src="{{post.image}}">
 	</div>
 	<div class="right-text">
 		<a href="{{post.url}}"><h2>{{post.title}}</h2></a>
-		<p class="info-extra">publicado em: <span><time>{{post.date | date:"%d-%m-%Y"}}</time></span> <br> categoria: <span>{{post.categoria}}</span> <br> Tags: <span>{{post.tags}}</span></p>
+		<aside class="info_about_post">
+			<ul>
+				<li><div class="data"></div> Publicado em: <time>{{post.date | date:"%d-%m-%Y"}}</time></li>
+				<li><div class="tags"></div>Tags: {{post.tags}}</li>
+				<li><div class="comentarios"></div>Comentarios: 20</li>
+				<li>
+					<div class="autor"></div>Por : {{post.autor}}
+				</li>
+			</ul>
+		</aside>
 	</div>
+	<!-- Fim do wrap do contéudo -->
 </article>
 {% endfor %}

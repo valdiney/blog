@@ -1,0 +1,31 @@
+---
+layout: default
+isPage: true
+title: WebVisão - Outras formas de entender a web
+---
+
+<!-- Inicio do wrap do contéudo -->
+<div class="wrap2">
+<% for post in @getFilesAtPath("posts").toJSON(): %>
+<article class="post">
+	<div class="left-img">
+		<img src="<% post.image %>">
+	</div>
+	<div class="right-text">
+		<a href="<% post.url %>"><h2><% post.title %></h2></a>
+		<div class="resumo">
+			<p><% post.resumo %></p>
+		</div>
+		<aside class="info_about_post">
+			<ul>
+				<li><div class="data sprites"></div></li><li> Publicado em: <time><% post.date | date:"%d-%m-%Y" %> &nbsp;</time></li>
+				<li><div class="tags sprites"></div></li><li>Tags: <% post.tags %> &nbsp;</li>
+				<li><div class="comentarios sprites"></div></li><li>Comentarios: 20 &nbsp;</li>
+				<li><div class="autor sprites"></div></li><li><% post.autor %></li>
+			</ul>
+		</aside>
+	</div>
+</article>
+<% end %>
+</div>
+<!-- Fim do wrap do contéudo -->

@@ -3,7 +3,7 @@ layout: post
 title: IE, estamos fartos de ti.
 tags: ie, problemas, suporte
 image: img/5.jpg
-resumo: É sonho de todo o desenvolvedor web viver num mundo em que os usuários
+resumo: O HTML5 e CSS3 sugiram e o Flash vai desaparecendo cada vez mais. Apesar das grandes vantagens que estas duas linguagens possuem sobre o seu concorrente, elas ainda perdem quando o assunto é compatibilidade [...]
 autor: Flowck
 date: 2013-07-30
 ---

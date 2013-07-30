@@ -4,7 +4,7 @@ title: Servidor web na unha com Javascript
 categoria: Javascript
 tags: servidor web, js
 image: img/5.jpg
-resumo: É sonho de todo o desenvolvedor web viver num mundo em que os usuários
+resumo: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, molestias quo harum similique nihil dolores ad velit non sed vitae commodi iusto corporis esse hic error ab ipsam ipsa id[...]
 autor: Flowck
 date: 2013-07-27
 ---

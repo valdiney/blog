@@ -5,6 +5,7 @@ image: img/7.jpg
 categoria: Javascript
 tags: js, library, efeitos
 autor: Flowck
+resumo: Em tempos estive a planejar o meu personal website e a pensar no UI/UX do mesmo, cheguei a um dado ponto onde teria que usar alguns efeitos em elementos da pagina, no caso o fade-in e o fade-out muito famosos por causa do jQuery.
 date: 2013-07-29
 ---
 

@@ -1,5 +1,14 @@
 ---
 layout: default
 ---
-<h1><%= @document.title %></h1>
-<div><%- @content %></div>
+<section id="conteudo">
+		<article class="post-full">
+			<h2><%- page.title | upcase %></h2>
+			<div class="post-img">
+					<img src="../../../<%- page.image %>">
+			</div>
+			<div class="post-content" id="post-content">
+				<%- content %>
+			</div>
+		</article>
+</section>

@@ -1,4 +1,3 @@
-# Your [DocPad](http://docpad.org) Project
+# WebVisão
 
-## License
-Copyright &copy; 2013+ All rights reserved.
+

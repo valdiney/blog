@@ -9,7 +9,9 @@
   "dependencies": {
     "docpad": "~6.46.4",
     "docpad-plugin-eco": "~2.0.2",
-    "docpad-plugin-marked": "~2.1.1"
+    "docpad-plugin-marked": "~2.1.1",
+    "safeps": "~2.2.6",
+    "grunt": "~0.4.1"
   },
   "main": "node_modules/docpad/bin/docpad-server",
   "scripts": {

@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<% for post in @getFilesAtPath("posts").toJSON(): %>
+<article class="arquivo">
+	<div class="data_left">
+		<script>
+			var data = new Date("<%- post.date %>");
+			document.write(data.getDate() + "/" + data.getMonth() + "/" + data.getFullYear());
+		</script>
+	</div>
+	<div class="titulo_right">
+		<h3><%- post.title %></h3>
+	</div>
+</article>
+<% end %>

@@ -6,7 +6,7 @@
 		<!-- Title -->
 	    <title><%= @document.title %></title>
 	    <!-- Stylecheets -->
-	    <%- @getBlock("styles").add(['/assets/css/master.css']).toHTML() %>
+	    <%- @getBlock("styles").add(['/assets/css/master.css', '/assets/css/master/monokai.css']).toHTML() %>
 	    <link rel="stylesheet" href="/assets/fonts/basicl.ttf">
 	</head>
 	<body>
@@ -14,7 +14,7 @@
 		<!-- Inicio do Wrap -->
 		<div id="wrap">
 			<header>
-				<div class="tit" id="ani1"><h1><a href="index.html">WEBVISÃO</a></h1></div>
+				<div class="tit" id="ani1"><h1><a href="../index.html">WEBVISÃO</a></h1></div>
 					<nav id="ani2">
 						<ul>
 							<li><a href="arquivo.html">ARQUIVO</a></li>
@@ -33,7 +33,7 @@
 							<img src="../assets/<%- @document.image %>">
 					</div>
 					<div class="post-content" id="post-content">
-						<%- @document.content %>
+						<%- @content %>
 					</div>
 				</article>
 			</section>

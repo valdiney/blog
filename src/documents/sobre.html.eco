@@ -30,6 +30,11 @@ layout: default
 			</div>
 			<% end %>
 		</section>
+		<!--Blog Engine info-->
+		<h3>ENGINE DO BLOG</h3>
+		<p>
+			O WebVisão usa o DocPad para gerar paginas estaticas, mais informações podem ser encontradas no <a href="https://www.github.com/Flowck/blog">repositório oficial</a> no github.
+		</p>
 	</div>
 	
 </div>

@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<div class="post-full">
+	<h2>SOBRE</h2>
+	<div class="post-content">
+		<p>
+			WebVisão é um projecto que nasceu da paixão de transmitir os conhecimentos de uma forma mais simples e entendivel para os desenvolvedores de todos os nivéis seja junior ou JEDI.
+		<br>
+		<br>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem sequi esse ab animi consequuntur. Minima, quis, repellat natus hic id quod similique vero qui distinctio ea nostrum dicta consectetur excepturi!
+		</p>
+		<h3>DREAM TEAM</h3>
+		<p>
+			Sit amet, consectetur adipisicing elit. Aperiam, voluptatum, voluptatibus inventore praesentium labore dolores.
+		</p>
+		<!-- Dream Team info -->
+		<section class="autores">
+			<% for post in @getFilesAtPath("autores").toJSON(): %>
+			<div class="info">
+				<div class="photo_profile">
+					<img src="<%- post.imagem %>" alt="foto_do_<%- post.nome %>">
+				</div>
+				<div class="bio">
+					<h4><%- post.nome %></h4>
+					<p><%- post.content %></p>
+					<p> <a href="https://www.twitter.com/<%- post.twitter %>">Twitter</a> / <a href="https://www.github.com/<%- post.github %>">Github</a></p>
+				</div>
+			</div>
+			<% end %>
+		</section>
+	</div>
+	
+</div>

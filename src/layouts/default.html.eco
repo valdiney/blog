@@ -6,8 +6,8 @@
 		<!-- Title -->
 	    <title><%= @document.title %></title>
 	    <!-- Stylecheets -->
-	    <%- @getBlock("styles").add(['/assets/css/master.css']).toHTML() %>
-	    <link rel="stylesheet" href="/assets/fonts/basicl.ttf">
+	    <%- @getBlock("styles").add(['../assets/css/master.css']).toHTML() %>
+	    <link rel="stylesheet" href="../assets/fonts/basicl.ttf">
 	</head>
 	<body>
 		<div id="search"></div>
@@ -25,11 +25,13 @@
 		</div>
 		<!-- Fim do wrap -->
 		<!-- Conteúdo -->
-		<section id="conteudo">
-		<%- @content %>
-		</section>
+		<div class="wrap2">
+			<section id="conteudo">
+				<%- @content %>
+			</section>
+		</div>
 	    <!-- Javascript -->
-	    <%- @getBlock("scripts").add(['/assets/js/blog.js]']).toHTML() %>
+	    <!--<%- @getBlock("scripts").add(['/assets/js/blog.js]']).toHTML() %>-->
 			</div>
 		<footer>
 		</footer>

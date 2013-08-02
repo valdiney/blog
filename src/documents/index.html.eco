@@ -5,11 +5,10 @@ title: WebVisão - Outras formas de entender a web
 ---
 
 <!-- Inicio do wrap do contéudo -->
-<div class="wrap2">
 <% for post in @getFilesAtPath("posts").toJSON(): %>
 <article class="post">
 	<div class="left-img">
-		<img src="/assets/<%- post.image %>">
+		<img src="assets/<%- post.image %>">
 	</div>
 	<div class="right-text">
 		<a href="<%- post.url %>"><h2><%- post.title %></h2></a>
@@ -18,7 +17,7 @@ title: WebVisão - Outras formas de entender a web
 		</div>
 		<aside class="info_about_post">
 			<ul>
-				<li><div class="data sprites"></div></li><li> Publicado em:&nbsp;<script> var data = new Date("<%- post.date %>"); document.write(data.getDate() + "-" + data.getMonth() + "-" + data.getFullYear()); </script> &nbsp;</li>
+				<li><div class="data sprites"></div></li><li> Publicado em:&nbsp;<time><script> var data = new Date("<%- post.date %>"); document.write(data.getDate() + "-" + data.getMonth() + "-" + data.getFullYear()); </script></time>&nbsp;</li>
 				<li><div class="tags sprites"></div></li><li>Tags: <%- post.tags %> &nbsp;</li>
 				<li><div class="comentarios sprites"></div></li><li> Comentarios: 20 &nbsp;</li>
 				<li><div class="autor sprites"></div></li><li><%- post.autor %></li>
@@ -27,5 +26,4 @@ title: WebVisão - Outras formas de entender a web
 	</div>
 </article>
 <% end %>
-</div>
 <!-- Fim do wrap do contéudo -->

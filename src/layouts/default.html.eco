@@ -7,8 +7,10 @@
 		<meta charset="UTF-8">
 		<!-- Title -->
 	    <title><%= @document.title %></title>
-	    <!-- Stylecheets -->
-	    <%- @getBlock("styles").add(['../assets/css/master.css']).toHTML() %>
+	    <!-- Stylesheets -->
+	    <!--<%- @getBlock("styles").add(['../assets/css/master.css']).toHTML() %>-->
+	    <link rel="stylesheet" href="assets/css/master.css">
+	    <link rel="stylesheet" href="assets/css/phone.css" media="screen and (max-width:480px)">
 	</head>
 	<body>
 		<div id="search"></div>

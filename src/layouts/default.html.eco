@@ -1,13 +1,14 @@
 <!doctype html>
 <html lang="pt">
 	<head>
+		<!-- Favicon -->
+		<link rel="icon" type="image/ico" href="favicon.ico">
 		<!-- Meta Tags -->
 		<meta charset="UTF-8">
 		<!-- Title -->
 	    <title><%= @document.title %></title>
 	    <!-- Stylecheets -->
 	    <%- @getBlock("styles").add(['../assets/css/master.css']).toHTML() %>
-	    <link rel="stylesheet" href="../assets/fonts/basicl.ttf">
 	</head>
 	<body>
 		<div id="search"></div>

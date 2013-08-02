@@ -1,0 +1,17 @@
+body{
+	background-color: #EEE;
+}
+
+.erro{
+	width: 440px;
+	margin:0 auto;
+	font-family:sans-serif;
+	border: 1px solid;
+}
+
+h1{
+	font-size:100px;
+	color:#A5020C;
+	margin:0 auto;
+}
+

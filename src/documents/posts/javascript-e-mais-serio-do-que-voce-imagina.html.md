@@ -5,7 +5,7 @@ image: img/JavaScript-logo.png
 categoria: Javascript
 tags: js, &nbsp; evolução
 autor: Flowck
-resumo: Nunca pensei que houvesse necessidade de abordar esse assunto dentro da comunidade angolana de desenvolvedores web, sempre pensei que o acesso fácil a informação já era suficiente para moldar a visão que muitos programadores têm sobre o Javascript [...]
+resumo: Nunca pensei que houvesse necessidade de abordar esse assunto dentro da comunidade angolana de desenvolvedores web, sempre pensei que o acesso fácil a informação já era suficiente para moldar a visão que  [...]
 date: 2013-07-28
 ---
 
@@ -24,7 +24,7 @@ Programando claro! Se você respondeu assim, não estas errado mas todos as ques
 ###COMPLEMENTO DO BACK-END
 
 Eu considero Javascript uma linguagem complementar do back-end porque com ela podemos resolver as limitações que as linguagens do back-end. Limitações como assim? Pois é, limitações, actualmente tempo real na web refere-se a capacidade que um site ou web app tem para comunicar com o servidor sem a necessidade de um refresh, ou seja actualização para obter resposta com o servidor.
-
+	
 Com complemento eu quero dizer que ricas aplicações web que necessitam de dar resposta ao utilizador em tempo real precisam do Javascript para fazer o que as linguagens de back-end não fazem.
 
 

@@ -1,9 +1,11 @@
 ---
-nome: Flowck II
-imagem: assets/img/autores/newEu.jpg
+name: Flowck II
+image: assets/img/autores/flowck.jpg
+position: Web Developer
+work_at: Local Ecs, Inc
+location: Luanda - Angola
 twitter: flowckii2
 github: Flowck
+site: http://flowck.com
 date: 2013-08-01
 ---
-
-Estudante e desenvolvedor web em L.A (Luanda - Angola) a procura das melhores formas de escrever códigos limpos, reutilizáveis e funcionais no lado cliente/servidor. Quando bem disposto tambem sou um Node envangelista.

@@ -1,9 +1,11 @@
 ---
-nome: Doriel Fonseca
-imagem: assets/img/autores/eu2.jpg
-twitter: doriel
+name: Doriel Fonseca
+image: assets/img/autores/doriel.jpg
+position: Front-End Developer
+work_at: Truta SGC
+location: Luanda - Angola
+twitter: doriel3572
 github: Doriel
+site: http://about.me/doriel
 date: 2013-08-02
 ---
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, impedit, nam dolor atque saepe obcaecati amet ab magni dolorem iusto error necessitatibus velit sint omnis facilis autem culpa qui ullam.

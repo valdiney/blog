@@ -17,14 +17,24 @@ Eu queria algo muito simples, então decidi criar uma pequena biblioteca que rea
 
 ### COMO USAR
 
-A sua sintaxe é: feid(elemento, duração).
+A sua sintaxe é bastante simples: 
+``` javascript
+feid(elemento, duração)
+```
 
 Elemento: consiste num elemento html na qual nos pretendemos aplicar o efeito.
 
 Duração: é o valor que determina o tempo de duração da animação
 
-Exemplo1:
+### DEMO
 
-	<section id="meuElemento"></section>
+O markup:
+``` html
+<section id="meuElemento"></section>
+``` 
+O Javascript:
+
+``` javascript
 	var meuEle = document.getElementById('meuElemento');
-	feid(meuEle, 2);`
+	feid(meuEle, 2);
+``` 

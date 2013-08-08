@@ -216,45 +216,63 @@ iframe{
 .resumo{
 	width:99%;
 	height:90px;
-	/*border:1px solid blue;*/
 }
 .info_about_post ul{
 	font-size:13px;
 	width:99%;
 	height:20px;
-	/*border:1px solid red;*/
 }
 
 .info_about_post ul li{
 	display:inline;
 	float:left;
 }
+
+.info_about_post ul li a{
+	color:#FFF;
+}
+
+.info_about_post ul li a:hover{
+	color:#333;
+}
+
 /*Info about authors*/
 .autores{
 	width:100%;
+	height: 210px;
 }
 
 .autores .info{
-	width:100%;
-	height:150px;
-	margin:0 0 10px 0;
+	width:22%;
+	height:250px;
+	margin:0 0 10px 10px;
+	float:left;
 }
 
 .autores .info img{
-	width:170px;
+	width:172px;
 	height:150px;
 	border-left:5px solid #EEE;
 }
 .autores .info .photo_profile{
 	width:175px;
 	height:150px;
-	float:left;
 }
 
-.autores .info .bio{
-	width:600px;
-	height:150px;
-	float:right;
+.autores .info p{
+	font-size:14px;
+	line-height:100%;
+}
+
+.autores .info a{
+	color:#FFF;
+}
+
+.autores .info span{
+	padding: 2px;
+	height: 22px;
+	margin: 5px 0 0 0;
+	background-color:#000;
 }
 
 
@@ -266,8 +284,6 @@ iframe{
 	background-color:#666;
 }
 
-
-
 /*RODAPE*/
 footer{
 	width:100%;
@@ -275,11 +291,6 @@ footer{
 	bottom:0;
 	background-color:#333;
 }
-footer:hover{
-	height:20px;
-	top:-20px;
-}
-
 /*SOCIAL*/
 #so1, #so2, #so3{
 	padding:2px 5px;
@@ -304,6 +315,3 @@ footer:hover{
 	-o-transition:opacity 2s;
 	transition:opacity 2s;
 }*/
-@media screen only and (max-width:500){
-
-}

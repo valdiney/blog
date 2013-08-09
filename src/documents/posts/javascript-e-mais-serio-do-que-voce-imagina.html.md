@@ -1,12 +1,13 @@
 ---
 layout: post
 title: Javascript é mais serio do que você imagina
-image: img/JavaScript-logo.png
+image: img/javaScript_logo.jpg
+thumb: img/javaScript_logo_thumb.jpg
 categoria: Javascript
 tags: js, &nbsp; evolução
 autor: Flowck
 resumo: Nunca pensei que houvesse necessidade de abordar esse assunto dentro da comunidade angolana de desenvolvedores web, sempre pensei que o acesso fácil a informação já era suficiente para moldar a visão que  [...]
-date: 2013-07-28
+date: 2013-07-24
 ---
 
 Nunca pensei que houvesse necessidade de abordar esse assunto dentro da comunidade angolana de desenvolvedores web, sempre pensei que o acesso fácil a informação já era suficiente para moldar a visão que muitos programadores têm sobre o Javascript.
@@ -14,6 +15,8 @@ Nunca pensei que houvesse necessidade de abordar esse assunto dentro da comunida
 A ideia de escrever este artigo surgiu depois de uma conversa com meu dude Doriel Fonseca que foi gozado ao falar de Javascript e obrigado a ouvir frases do tipo “Javascript é linguagem para fazer menus, PHP é o rei”.
 
 ###VAMOS ABRIR ESSAS CABEÇAS
+
+![abrir_a_cabeça](../assets/img/op.jpg)
 
 Se você se acha uma pessoa que programa para a web e ainda pensa que Javascript só server para criar menus drop down então isso significa que você ficou parado no tempo ou simplesmente não sabe como é que a web funciona actualmente.
 
@@ -27,8 +30,11 @@ Eu considero Javascript uma linguagem complementar do back-end porque com ela po
 	
 Com complemento eu quero dizer que ricas aplicações web que necessitam de dar resposta ao utilizador em tempo real precisam do Javascript para fazer o que as linguagens de back-end não fazem.
 
+![ajax](../assets/img/ajax.jpg)
 
 A imagem acima ilustra dois ciclos de requisição feitas pelo browser, sendo que o primeiro é o tradicional onde a cada requisição http o servidor retorna os dados vindos da bd e os ficheiros normais .html, .css e .js, nem que queiramos ver se um mail já chegou a nossa caixa de correio este processo é feito novamente. Já no segundo modelo as requisições são feitas por meio da técnica AJAX (Javascript Assíncrono e XML), onde apôs a primeira requisição, o servidor apenas passará retornar os dados da bd, não mais sendo necessário enviar os ficheiros .html, .css e .js ao browser, um exemplo disso é o Gmail  que mesmo sem nós atualizarmos a pagina ele notifica-nos quando há um novo mail na inbox. Não percebeu o exemplo? Tá bem. Você atualiza a pagina do facebook para ver se há uma mensagem nova no chat ou uma notificação? Sim atualizo. Opa, eu não me referia ao 0.facebook. Annnnnh, sim não atualizo. Isto acontece graças ao Javascript.
+
+![facebook_realtime_notification](../assets/img/notification.png)
 
 ###CLIENT E SERVER SIDE É COMIGO
 

@@ -36,7 +36,7 @@
 			</section>
 		</div>
 	    <!-- Javascript -->
-	    <!--<%- @getBlock("scripts").add(['/assets/js/blog.js]']).toHTML() %>-->
+	    <%- @getBlock("scripts").add(['/assets/js/blog.js']).toHTML() %>
 			</div>
 		<footer>
 		</footer>

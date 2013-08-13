@@ -4,7 +4,7 @@ title: fei-d, a pequena biblioteca .js
 image: img/7.jpg
 thumb: img/7_thumb.jpg
 categoria: Javascript
-tags: js, library, efeitos
+tags: js &nbsp;library
 autor: Flowck
 resumo: Em tempos estive a planejar o meu personal website e a pensar no UI/UX do mesmo, cheguei a um dado ponto onde teria que usar alguns efeitos em elementos da pagina, no caso o fade-in e o fade-out muito famosos por causa do jQuery.
 date: 2013-01-29

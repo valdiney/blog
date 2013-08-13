@@ -4,7 +4,7 @@ title: Javascript é mais serio do que você imagina
 image: img/javaScript_logo.jpg
 thumb: img/javaScript_logo_thumb.jpg
 categoria: Javascript
-tags: js, &nbsp; evolução
+tags: js &nbsp;evolução
 autor: Flowck
 resumo: Nunca pensei que houvesse necessidade de abordar esse assunto dentro da comunidade angolana de desenvolvedores web, sempre pensei que o acesso fácil a informação já era suficiente para moldar a visão que  [...]
 date: 2013-07-24

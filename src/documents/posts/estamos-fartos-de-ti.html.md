@@ -1,19 +1,19 @@
 ---
 layout: post
 title: IE, estamos fartos de ti.
-tags: ie, problemas, suporte
-image: img/5.jpg
-thumb: img/5.jpg
-resumo: O HTML5 e CSS3 sugiram e o Flash vai desaparecendo cada vez mais. Apesar das grandes vantagens que estas duas linguagens possuem sobre o seu concorrente, elas ainda perdem quando o assunto é compatibilidade [...]
+tags: ie &nbsp;suporte
+image: img/ie.jpg
+thumb: img/ie_thumb.jpg
+resumo: HTML5 e CSS3 sugiram e o Flash vai desaparecendo cada vez mais. Apesar das grandes vantagens que estas duas linguagens possuem sobre o seu concorrente, elas ainda perdem quando o assunto é compatibilidade [...]
 autor: Flowck
 date: 2012-10-09
 ---
 
 É sonho de todo o desenvolvedor web viver num mundo em que os usuários apenas acessam a web com browsers modernos, dentre eles que nenhum estivesse a utilizar o IE, porque mesmo na sua 9ª versão ainda apresenta muitas debilidades para renderizar ou reconhecer algumas funcionalidades dos queridos HTML5 e CSS3.
 
-DOR DE CABEÇA PARA OS DESENVOLVEDORES WEB  
+### DOR DE CABEÇA PARA OS DESENVOLVEDORES WEB  
 
-O HTML5 e CSS3 sugiram e o Flash vai desaparecendo cada vez mais. Apesar das grandes vantagens que estas duas linguagens possuem sobre o seu concorrente, elas ainda perdem quando o assunto é compatibilidade, pois é o Flash é suportado em todos os browsers desde que tenham o plug-in instalado. Infelizmente atualmente isto ainda é um problema porque ainda não lançaram a versão final do HTML5 e CSS3. Enquanto isso o desenvolvedor web tem que lidar com os usuários que utilizam o IE, já basta o IE9 não suportar totalmente o HTML5 e CSS3, ainda aparecem pessoas que acedem a web com IE6(isto me dá dor de cabeça) que foi lançado a 12 anos atras (eu ainda estava na 1ª classe). É inacreditável.
+HTML5 e CSS3 sugiram e o Flash vai desaparecendo cada vez mais. Apesar das grandes vantagens que estas duas linguagens possuem sobre o seu concorrente, elas ainda perdem quando o assunto é compatibilidade, pois é o Flash é suportado em todos os browsers desde que tenham o plug-in instalado. Infelizmente atualmente isto ainda é um problema porque ainda não lançaram a versão final do HTML5 e CSS3. Enquanto isso o desenvolvedor web tem que lidar com os usuários que utilizam o IE, já basta o IE9 não suportar totalmente o HTML5 e CSS3, ainda aparecem pessoas que acedem a web com IE6(isto me dá dor de cabeça) que foi lançado a 12 anos atras (eu ainda estava na 1ª classe). É inacreditável.
 
 Por causa do IE, os desenvolvedores passaram a usar com mais frequência as condições no HTML: .Bibliotecas foram criadas por causa do problema de compatibilidade como o Modernizr, ok ela não foi desenvolvida especificamente para o IE, mas ele é um dos browsers que menos Features suporta.
 

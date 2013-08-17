@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Javascript é mais serio do que você imagina
-image: img/javaScript_logo.jpg
-thumb: img/javaScript_logo_thumb.jpg
+image: img/javascript.jpg
+thumb: img/javascript_thumb.jpg
 categoria: Javascript
 tags: js &nbsp;evolução
 autor: Flowck

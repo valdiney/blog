@@ -3,12 +3,17 @@
 	<head>
 		<!-- Meta Tags -->
 		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		<meta name="author" content="<% for post in @getFilesAtPath("autores").toJSON(): %><%- post.name %>, <% end %>">
+		<meta name="description" content="Outras formas de entender a web">
+		<meta name="keywords" content="desenvolvimento web, front-end, back-end, html5, css3, javascript, php, libraries, frameworks">
+		<meta name="robots" content="index">
 		<!-- Title -->
 	    <title><%= @document.title %></title>
 	    <!-- Stylecheets -->
-	   <%- @getBlock("styles").add(['../assets/css/master.css', '../assets/css/monokai.css']).toHTML() %>
-	    <!--<link rel="stylesheet" href="../assets/css/master.css">
-	    <link rel="stylesheet" href="../assets/css/phone.css" media="screen and (max-width:480px)">-->
+	    <link rel="stylesheet" href="../assets/css/master.css">
+	    <link rel="stylesheet" href="../assets/css/phone.css" media="screen and (max-width:480px)">
+	    <link rel="stylesheet" href="../assets/css/monokai.css">
 	</head>
 	<body>
 		<!--INICIO-->

@@ -90,6 +90,4 @@ Os layouts especificos para paginas como post, index e sobre
 Contem as configurações usadas pelo docpad
 
 ## gruntfile.js
-Ficheiro de configuração do grunt.js
-
-## package.json 
+Ficheiro de configuração do [grunt.js](gruntjs.com)

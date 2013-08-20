@@ -71,23 +71,23 @@ O Repositório estará estruturado do seguinte modo apôs todos os sets acima:
 ### node_modules
 Contem todos os arquivos com que o nodejs irá traablhar como: docpad, eco, marked, highlight
 
-## out
+### out
 O Site estático gerado será armazenado nesta directoria pelo Docpad
 
-## assets
+### assets
 Arquivos .js, .css, fonts e imagens são armazenados nesta directoria
 
-##autores
+###autores
 Contem as informações dos autores dos posts
 
-##posts
+###posts
 Todos os posts em .md
 
-##layouts
+###layouts
 Os layouts especificos para paginas como post, index e sobre
 
-## docpad.coffee
+### docpad.coffee
 Contem as configurações usadas pelo docpad
 
-## gruntfile.js
+### gruntfile.js
 Ficheiro de configuração do [grunt.js](gruntjs.com)

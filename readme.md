@@ -39,3 +39,57 @@ Com isso ele irá gerar os arquivos necessários para ter o blog operacional na 
 ```
 	localhost:9778
 ```
+
+## Estrutura
+
+O Repositório estará estruturado do seguinte modo apôs todos os sets acima:
+
+
+	|--- node_modules
+
+	|--- out
+
+	|--- src
+
+		|--- documents
+			|--- assets
+			|--- autores
+			|--- posts
+
+		|--- files
+
+		|--- layouts
+
+	-- docpad.coffee
+
+	-- gruntfile.js
+
+	-- package.json
+
+	-- README.md
+
+### node_modules
+Contem todos os arquivos com que o nodejs irá traablhar como: docpad, eco, marked, highlight
+
+## out
+O Site estático gerado será armazenado nesta directoria pelo Docpad
+
+## assets
+Arquivos .js, .css, fonts e imagens são armazenados nesta directoria
+
+##autores
+Contem as informações dos autores dos posts
+
+##posts
+Todos os posts em .md
+
+##layouts
+Os layouts especificos para paginas como post, index e sobre
+
+## docpad.coffee
+Contem as configurações usadas pelo docpad
+
+## gruntfile.js
+Ficheiro de configuração do grunt.js
+
+## package.json 

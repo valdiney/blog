@@ -39,8 +39,10 @@
 		<!-- Conteúdo -->
 		<div class="wrap2">
 			<section id="conteudo">
-				<article class="post-full">
+				<div class="post_title">
 					<h2><%- @document.title %></h2>
+				</div>
+				<article class="post-full">
 					<div class="post-img">
 							<img src="../assets/<%- @document.image %>">
 					</div>

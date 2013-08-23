@@ -113,12 +113,6 @@ h1 a{
 h1 a:hover{
 	color:#333;
 }
-h2{
-	color:#FFF;
-	font-size:24px;
-	font-family:'open';
-	text-shadow:1px 1px 3px #333;
-}
 
 h3{
 	font-family:'open';
@@ -141,21 +135,32 @@ h4{
 }
 
 #conteudo{
-	width:100%; 
+	width:100%;
 	margin:0 0 50px 0;
 }
+
 /*ESTILOS DO POST*/
-.post, .post-full{
+.post{
 	width:100%;
 	height:160px;
 	margin:0 0 50px 0;
 	background-color:#666;
 }
-.post-full{
-	height:auto;
-	text-align:center;
-	padding:0 0 20px 0;
+
+.post h2{
+	color:#FFF;
+	font-size:24px;
+	font-family:'open';
+	text-shadow:1px 1px 3px #333;
 }
+
+.post_full{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	background-color: #666;
+}
+
 .post_title{
 	width: 100%;
 	height: 60px;
@@ -163,37 +168,43 @@ h4{
 	margin: 0 0 20px 0 ;
 	background-color: #666;
 }
-.post-full p{
+
+.post_full p{
 	color:#FFF;
 }
+
 .post_title h2{
 	color:#FFF;
 	font-family:'open';
 	font-size:40px;
 	text-shadow:1px 1px 3px #333;
 }
-.post-full a{
+
+.post_full .sobre_title{
+	color:#FFF;
+	font-family:'open';
+	font-size:40px;
+	text-shadow:1px 1px 3px #333;
+}
+
+.post_full a{
 	color:#000;
 }
-.post-full a:hover{
+.post_full a:hover{
 	color:#EEE;
 }
-.post-full img{
+.post_full img{
 	width:100%;
 	height:400px;
 }
-.post-full{
-	width:100%;
-	height:400px;
-	margin:0 auto;
-}
-.post-full .post-content{
+
+.post_full .post-content{
 	width:90%;
 	margin:10px auto;
 	text-align:justify;
 	line-height:190%;
 }
-.post-full .post-content pre{
+.post_full .post-content pre{
 	width:90%;
 	line-height:150%;
 	margin:0 auto;

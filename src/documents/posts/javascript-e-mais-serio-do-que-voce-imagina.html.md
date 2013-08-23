@@ -42,6 +42,6 @@ Mesmo somente a funcionar no cliente side o Javascript provou ser uma linguagem 
 
 Como assim ++? Pois é, ++ vou falar disso no outro post com o titulo: Javascript b. Não posso revelar o titulo ainda.
 
-###A SUA CEBEÇA NÃO ABRIU
+###A SUA CEBEÇA NÃO ABRIU? 
 
 Sem problemas, mais tarde ou mais cedo você irá encarar a realidade, mas o ponto é que esta linguagem já deixou de ser pequena a muito tempo, e a Web moderna muito depende dela assim também como depende do PHP, Ruby ou Python.

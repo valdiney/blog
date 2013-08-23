@@ -325,6 +325,13 @@ iframe{
 	background-color:#666;
 }
 
+.arquivo h2{
+	color:#FFF;
+	font-family:'open';
+	font-size:25px;
+	text-shadow:1px 1px 3px #333;
+}
+
 .arquivo a{
 	color:#FFF;
 }

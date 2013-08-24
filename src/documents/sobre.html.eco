@@ -3,8 +3,8 @@ layout: default
 title: Sobre
 ---
 
-<div class="post-full">
-	<h2>SOBRE</h2>
+<div class="post_full">
+	<h2 class="sobre_title">SOBRE</h2>
 	<div class="post-content">
 		<p>
 			WebVisão é um projecto que nasceu da paixão de transmitir os conhecimentos de uma forma mais simples e entendivel para os desenvolvedores de todos os nivéis seja junior ou JEDI.
@@ -12,16 +12,15 @@ title: Sobre
 		<br>
 			Fundado pelo <b>Flowck</b> (esse com os óculos de sol partido) em junho de 2012, numa altura em que frequentava o último ano do ensino médio onde trabalhava no seu projecto final do curso com o seu team. Deste projecto diversos conhecimentos foram adquiridos e deste modo surgiu então a necessidade de os partilhar. Eis o <a href="http://webvisao.eu">WebVisão</a> , na sua segunda versão desenvolvida pelo seu <a href="https://github.com/Flwock/blog">fundador</a>.
 		<br>
-		<br>
 			
 		</p>
 		<h3>DREAM TEAM</h3>
 		<p>
-			Pessoas que dão o seu litro para fazer o WebVisão acontecer, faça chuva faça sol, haja cortes de energia haja conexão lenta :) eles estão sempre aqui.
+			Pessoas que dão o seu litro para fazer o WebVisão acontecer, faça chuva faça sol, haja cortes de energia haja conexão lenta :) eles estão sempre aqui:
 		</p>
 		<!-- Dream Team info -->
 		<section class="autores">
-			<% for post in @getFilesAtPath("autores").toJSON(): %>
+			<% for post in @getCollection("autores").toJSON(): %>
 			<div class="info">
 				<div class="photo_profile">
 					<img src="<%- post.image %>" alt="foto_do_<%- post.name %>">
@@ -34,7 +33,7 @@ title: Sobre
 						<%- post.location %>
 					</p>
 					<span><a href="https://www.twitter.com/<%- post.twitter %>">Twitter</a></span> <span><a href="https://www.github.com/<%- post.github %>">Github</a></span>
-					<span><a href="<%- post.site %>">www</a></span>
+					<span><a href="<%- post.site %>">www</a></span><span class="sp_left"><a href="mailto:<%- post.email %>">@</a></span>
 				</div>
 			</div>
 			<% end %>
@@ -44,6 +43,11 @@ title: Sobre
 		<h3>ENGINE DO BLOG</h3>
 		<p>
 			O WebVisão usa o DocPad para gerar paginas estaticas, mais informações podem ser encontradas no <a href="https://www.github.com/Flowck/blog">repositório oficial</a> no github.
+		</p>
+
+		<h3>SUGESTÕES, BUGS</h3>
+		<p>
+			Se quiser sugerir alguma coisa ou encontrou um bug e quiser reportar crie uma nova issue no <a href="https://www.github.com/Flowck/blog">repositório oficial</a>.
 		</p>
 	</div>
 	

@@ -316,6 +316,9 @@ iframe{
 	background-color:#000;
 }
 
+.autores .info .sp_left{
+	margin: 0 0 0 5px;
+}
 
 /*ARQUIVO*/
 .arquivo{
@@ -364,11 +367,6 @@ footer{
 	transition:opacity 2s;
 }
 
-/*#ani1,#ani2,#ani3,#ani4{
-	opacity:0;
-	-webkit-transition:opacity 2s;
-	-moz-transition:opacity 2s;
-	-ms-transition:opacity 2s;
-	-o-transition:opacity 2s;
-	transition:opacity 2s;
-}*/
+.space{
+	height: 30px;
+}

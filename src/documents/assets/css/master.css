@@ -74,7 +74,7 @@ nav ul{
 	list-style:none;
 }
 nav ul li{
-	margin:0 0 0 30px;
+	margin:0 0 0 28px;
 	cursor:pointer;
 	display:inline;
 }
@@ -159,6 +159,11 @@ h4{
 	height: auto;
 	text-align: center;
 	background-color: #666;
+}
+
+.post_full ul{
+	margin:0 0 0 20px;
+	color:#FFF;
 }
 
 .post_title{

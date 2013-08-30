@@ -37,13 +37,10 @@ header{
 	height:200px;
 }
 .like{
-	width: 17px;
+	width: 100px;
 	height: 23px;
-	margin:0 auto;
-	background-image:url(../img/like.png);
-	background-repeat: no-repeat;
-	background-size: 34px 22px;
-	cursor:pointer;
+	margin:3px auto;
+	cursor: pointer;
 }
 .like:hover{
 	background-position: -17px 0;

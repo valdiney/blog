@@ -29,9 +29,7 @@
 					</ul>
 				</nav>
 				<div class="like">
-					<a href="https://www.facebook.com/pages/WebVis%C3%A3o/449858405037749" target="blank">
-						<div></div>
-					</a>
+					<div class="fb-like" data-href="https://www.facebook.com/pages/WebVis%C3%A3o/449858405037749" data-width="100" data-layout="button_count" data-show-faces="false" data-send="false"></div>
 				</div>
 			</header>
 		</div>

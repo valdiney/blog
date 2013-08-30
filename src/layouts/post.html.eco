@@ -29,9 +29,7 @@
 						</ul>
 					</nav>
 					<div class="like">
-						<a href="https://www.facebook.com/pages/WebVis%C3%A3o/449858405037749" target="blank">
-							<div></div>
-						</a>
+						<div class="fb-like" data-href="https://www.facebook.com/pages/WebVis%C3%A3o/449858405037749" data-width="100" data-layout="button_count" data-show-faces="false" data-send="false"></div>
 					</div>
 			</header>
 		</div>
@@ -64,6 +62,15 @@
 			        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 			        ga('create', 'UA-43049167-1', 'webvisao.eu');
 			        ga('send', 'pageview');
+			        // Facebook like button
+			        <div id="fb-root"></div>
+					(function(d, s, id) {
+					  var js, fjs = d.getElementsByTagName(s)[0];
+					  if (d.getElementById(id)) return;
+					  js = d.createElement(s); js.id = id;
+					  js.src = "//connect.facebook.net/pt_PT/all.js#xfbml=1&appId=158888830865258";
+					  fjs.parentNode.insertBefore(js, fjs);
+					}(document, 'script', 'facebook-jssdk'));
 			    </script>
 			</section>
 		</div>

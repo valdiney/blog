@@ -20,7 +20,7 @@ title: Sobre
 		</p>
 		<!-- Dream Team info -->
 		<section class="autores">
-			<% for post in @getCollection("autores").toJSON(): %>
+			<% for post in @getFilesAtPath("autores").toJSON(): %>
 			<div class="info">
 				<div class="photo_profile">
 					<img src="<%- post.image %>" alt="foto_do_<%- post.name %>">

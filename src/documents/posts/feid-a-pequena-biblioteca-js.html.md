@@ -20,12 +20,19 @@ Eu queria algo muito simples, então decidi criar uma pequena biblioteca que rea
 
 A sua sintaxe é bastante simples: 
 ``` javascript
-feid(elemento, duração)
+feid(elemento, duração);
+// Métodos
+on();
+off();
 ```
 
-Elemento: consiste num elemento html na qual nos pretendemos aplicar o efeito.
+* Elemento: consiste num elemento html na qual nos pretendemos aplicar o efeito.
 
-Duração: é o valor que determina o tempo de duração da animação
+* Duração: é o valor que determina o tempo de duração da animação
+
+* Método on(): equivalente aplica ao elemento o efeito fade-in.
+
+* Método off(): equivalente aplica ao elemento o efeito fade-out.
 
 ### DEMO
 
@@ -36,6 +43,18 @@ O markup:
 O Javascript:
 
 ``` javascript
-	var meuEle = document.getElementById('meuElemento');
-	feid(meuEle, 2);
+	var meuEle = document.getElementById('meuElemento'),
+	foo = feid(meuEle, 2);
 ``` 
+Fade In:
+
+``` javascript
+	foo.on();
+```
+Fade Out:
+
+``` javascript
+	foo.off();
+```
+
+O fei-d.js é open-source e qualquer um pode contribuir para a sua melhoria, ele está no [github](https://github.com/flowck/fei-d) juntamente com a licença [WFTPL](http://www.wtfpl.net/).

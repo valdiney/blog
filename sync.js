@@ -3,24 +3,23 @@
 // Require the modules
 var fs = require('fs');
 
-// Config vars
-//var files = [],
-var i = -1;
-
 // Call the methods
 fs.readdir('src/documents/posts/', function(error, files) {
-	/*console.log(files);
-	while(i < files.length){
-		i++;
-		//console.log(files[i]);
-	}*/
+
 	// Loop for all elements in array
 	for(var i = 0; i < files.length; i++){
-		//var file = 'src/documents/posts/'.files[i];
-		console.log(files);
+		var file_directory = 'src/documents/posts/'+files[i];
+		//console.log(file);
+		console.log(files[i]);
+
 		// Read files
-		/*fs.readFile('src/documents/posts/'.files[1], function(error, data) {
-			console.log('----->' + data);
-		});*/
+		fs.readFile(file_directory, function(error, data) {
+			
+			//console.log('----->' + data);
+			// Write files
+			fs.writeFile('src/documents/posts/sync/' + files[i], data, function() {
+				console.log(files[i]);
+			});
+		});
 	}
 });

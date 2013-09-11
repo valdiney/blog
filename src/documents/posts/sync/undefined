@@ -1,0 +1,43 @@
+undefinedut: post
+title: Hello World again, again
+image: img/helloWorld.png
+thumb: img/helloWorld_thumb.png
+categoria: Upgrade
+tags: nova &nbsp;versão
+autor: Flowck
+resumo: Nova versão, novo endereço, nova interface seja bem vindo ao WebVisão. Depois de uns meses de desenvolvimento, engavetamento, esquecimento finalmente a nova versão apresentavel do WebVisão está dispónivel.  [...]
+date: 2013-08-23
+---
+
+Nova versão, novo endereço e nova interface, seja bem vindo ao WebVisão. Depois de uns meses de desenvolvimento, engavetamento, esquecimento finalmente a nova versão apresentavel do WebVisão está dispónivel.
+
+### DESFAZER AS MALAS
+
+1 - Novo dominio: O endereço antigo me encomodava bastante pela sua extensão, mas afinal de contas todo o blog gratuito no wordpress é assim. Desde sempre soube que o dominio webvisao.com estava oucupado, mas isso não me fez desistir do nome e deste modo procurei registar um dominio muito curto, eis o webvisao.eu.
+
+2 - Host: [Github](https://github.com) é o responsável maximo do host. Os arquivos do site estão armazenados num repositório especial usado pelo github para servir o dominio webvisao.eu.
+
+3 - Interface: Esta interface surgiu de um fork do meu [site oficial](https://github.com/flowck/flowck.github.io) (ainda na gaveta), onde fui moldando até obter o resultado que eu pretendia: uma interface clean e focada no conteúdo, procurei não incluir elementos que pudessem distrair os carissimos leitores.
+
+4 - Comentários: Pelo facto do blog não usar nenhuma linguagem de back-end ou base de dados não seria possivel ter um sistema de comentários a não ser que usasse um sistema de terceiros, eis o [Disqus](http://disqus.com), muito usado em blogs e a sua [integração](https://disqus.com/admin/signup/?utm_source=New-Site) nos sites é extremamente fácil.
+
+Bem, é tudo que me surgiu a cabeça a partir de agora começa a nova temporada dos posts no [WV](http://webvisao.eu), Lets Rock.
+back-end porque com ela podemos resolver as limitações que as linguagens do back-end. Limitações como assim? Pois é, limitações, actualmente tempo real na web refere-se a capacidade que um site ou web app tem para comunicar com o servidor sem a necessidade de um refresh, ou seja actualização para obter resposta com o servidor.
+	
+Com complemento eu quero dizer que ricas aplicações web que necessitam de dar resposta ao utilizador em tempo real precisam do Javascript para fazer o que as linguagens de back-end não fazem.
+
+![ajax](../assets/img/ajax.jpg)
+
+A imagem acima ilustra dois ciclos de requisição feitas pelo browser, sendo que o primeiro é o tradicional onde a cada requisição http o servidor retorna os dados vindos da bd e os ficheiros normais .html, .css e .js, nem que queiramos ver se um mail já chegou a nossa caixa de correio este processo é feito novamente. Já no segundo modelo as requisições são feitas por meio da técnica AJAX (Javascript Assíncrono e XML), onde apôs a primeira requisição, o servidor apenas passará retornar os dados da bd, não mais sendo necessário enviar os ficheiros .html, .css e .js ao browser, um exemplo disso é o Gmail  que mesmo sem nós atualizarmos a pagina ele notifica-nos quando há um novo mail na inbox. Não percebeu o exemplo? Tá bem. Você atualiza a pagina do facebook para ver se há uma mensagem nova no chat ou uma notificação? Sim atualizo. Opa, eu não me referia ao 0.facebook. Annnnnh, sim não atualizo. Isto acontece graças ao Javascript.
+
+![facebook_realtime_notification](../assets/img/notification.png)
+
+###CLIENT E SERVER SIDE É COMIGO
+
+Mesmo somente a funcionar no cliente side o Javascript provou ser uma linguagem muito poderosa, mas aí uns JEDI’s decidiram usar o motor V8 Javascript do Go…Não! não é de carros que eu vou falar. Como eu estava a dizer eles decidiram usar o motor V8 Javascript que o Google usou no Chrome e umas centenas de linhas de códigos em C++ e criaram o NodeJs, uma plataforma que permite aos desenvolvedores criarem aplicações rápidas e escaláveis. Em outras palavras é Javascript para Server-side. Não percebi. Isso quer dizer que o que você fazia em PHP, Ruby ou Python pode ser feito com Javascript e ++.
+
+Como assim ++? Pois é, ++ vou falar disso no outro post com o titulo: Javascript b. Não posso revelar o titulo ainda.
+
+###A SUA CEBEÇA NÃO ABRIU? 
+
+Sem problemas, mais tarde ou mais cedo você irá encarar a realidade, mas o ponto é que esta linguagem já deixou de ser pequena a muito tempo, e a Web moderna muito depende dela assim também como depende do PHP, Ruby ou Python.

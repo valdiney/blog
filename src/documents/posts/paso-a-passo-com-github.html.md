@@ -9,7 +9,7 @@ autor: Flowck
 date: 2013-09-11
 ---
 
-Lançado em 2008 o Github se tornou moda entre os desenvolvedores de todo o mundo, isto porque ele agrega a componente mais social com o sistema sistema de controle de versões [Git](http://git-scm.com/).
+Lançado em 2008 o Github se tornou moda entre os desenvolvedores de todo o mundo, isto porque ele agrega uma componente mais social com o sistema sistema de controle de versões [Git](http://git-scm.com/).
 
 ### O QUE VOCÊ PRECISA SABER OU TER
 
@@ -42,6 +42,14 @@ Agora que você já tem o git instalado precisaremos nos conectar aos servidores
 
 ![ssh-keygen](../assets/img/ssh.gif)
 
-2 - Agora é hora de nos conectarmos ao Github com a chave gerada. Pra isso abra o explorador e dirija-se até a directoria .ssh mais especificamente aqui C:/users/flowck/.ssh/ abra no editor de texto o ficheiro "id_rsa.pub", copie o seu conteudo, posteriormente entre nos settings do github e selecione [SSH Keys](https://github.com/settings/ssh), clique no "Add SSH Keys" dé um titulo qualquer e cole no campo abaixo o conteúdo que você copiou, pronto você está conectado ao github via ssh. Ainda assim precisamos ter a certeza se está tudo ok, pra isso execute o comando "ssh -vT git@github.com":
+2 - Agora é hora de nos conectarmos ao Github com a chave gerada. Pra isso abra o explorador e dirija-se até a directoria .ssh mais especificamente aqui "C:/users/flowck/.ssh/", abra no editor de texto o ficheiro "id_rsa.pub", copie o seu conteudo, posteriormente entre nos settings do github e selecione [SSH Keys](https://github.com/settings/ssh), clique no "Add SSH Keys" dé um titulo qualquer e cole no campo abaixo o conteúdo que você copiou, pronto você está conectado ao github via ssh. Ainda assim precisamos ter a certeza se está tudo ok, pra isso execute o comando "ssh -vT git@github.com":
 
 ![ssh-confirm](../assets/img/ssh_confirm.gif)
+
+Se você obtiver o mesmo resultado do gif animado então você está permanenetemente ligado ao github a partir de agora, caso não verifique os passo anteriores.
+
+Agora entenda o que aconteceu: uma chave única foi gerada pelo comando ssh-keygen na nossa maquina, em seguida esta chave foi adicionada à nossa conta no github conectando assim a nossa conta github ao nosso computador. Com isso toda vez que nós tentarmos nos comunicar com os servidores do github será feito uma leitura da chave na nossa maquina e será comparada com a chave na nossa sua conta.
+
+### CONSIDERÇÕES FINAIS
+
+Neste artigo foi apresentado uma das formas de se conectar ao github usando o protocolo ssh via terminal, com essa configuração você está apto para começar a executar comandos git, assunto que veremos no proximo post.

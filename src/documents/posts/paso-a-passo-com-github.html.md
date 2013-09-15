@@ -19,16 +19,29 @@ Antes demais você precisa conhecer algumas coisas básicas como:
 
 * Git: é um sistema distribuido de controlo de versões projectado para lidar com projectos pequenos e grandes com velocidade e eficiência.
 
-* Linha de comandos, conhecer alguns comandos básicos do terminal como:
+* Secure Shell (SSH): é um protocolo de rede criptografado para comunicação de dados entre dois computadores.
 
-``` shell
+* Conta de utlizador no [github](www.github.com).
+
+* Linha de comandos - conhecer alguns comandos básicos do terminal como:
+
+``` javascript
 	// cd (change directory) permite mudar de directoria, ex:
 	cd C:\users\joao\documents\
 	// mkdir (make directory) permite criar uma directoria, ex: 
-	mkdir projectoX
+	mkdir nome_da_directoria
 ```
-* Conta de utlizador no [github](www.github.com).
 
 ### SETUP INICIAL
 
-Existem duas formas de usar os serviços do github, a primeira é a partir do [terminal ou linha de comandos](http://git-scm.com/downloads) e a segunda é atravez de um software GUI como o [GitHub for windows](http://windows.github.com/) caso estiver no windows existem também versões para o [Mac](http://mac.github.com/).
+Existem duas formas de usar os serviços do github, a primeira é a partir do [terminal ou linha de comandos](http://git-scm.com/downloads) e a segunda é atravez de um software GUI como o [GitHub for windows](http://windows.github.com/) caso estiver no windows ou o [Github for Mac](http://mac.github.com/). Para o nosso tutorial usaremos o terminal e caso você não usa ele frequentemente procure feze-lo mais.
+
+Agora que você já tem o git instalado precisaremos nos conectar aos servidores do github. A conexão pode ser feita usando o protocolo HyperText Transfer (HTTP) ou usando o protocolo Secure Shell (SSH), no nosso caso usaremos o SSH.
+
+1 - Navegue até a directoria ".ssh" em seguida execute o comando "ssh-keygen" para gerar um novo ssh key:
+
+![ssh-keygen](../assets/img/ssh.gif)
+
+2 - Agora é hora de nos conectarmos ao Github com a chave gerada. Pra isso abra o explorador e dirija-se até a directoria .ssh mais especificamente aqui C:/users/flowck/.ssh/ abra no editor de texto o ficheiro "id_rsa.pub", copie o seu conteudo, posteriormente entre nos settings do github e selecione [SSH Keys](https://github.com/settings/ssh), clique no "Add SSH Keys" dé um titulo qualquer e cole no campo abaixo o conteúdo que você copiou, pronto você está conectado ao github via ssh. Ainda assim precisamos ter a certeza se está tudo ok, pra isso execute o comando "ssh -vT git@github.com":
+
+![ssh-confirm](../assets/img/ssh_confirm.gif)

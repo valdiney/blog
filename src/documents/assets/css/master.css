@@ -190,14 +190,21 @@ h4{
 }
 
 .post_full a{
-	color:#000;
+	color:#DDD;
+	text-decoration: underline;
 }
 .post_full a:hover{
 	color:#EEE;
 }
-.post_full img{
-	width:100%;
-	height:400px;
+
+.post_full .img_highlight{
+	width: 900px;
+	margin: 0 auto;
+}
+
+.post_full .post-content img{
+	display: block;
+	margin:0 auto;
 }
 
 .post_full .post-content{
@@ -354,21 +361,12 @@ footer{
 	background-color:#333;
 }
 /*SOCIAL*/
-#so1, #so2, #so3{
-	padding:2px 5px;
-	position:absolute;
-	margin:-23px 0 0 -50px;
-	background-color:#666; 
-	color:#fff;
-	border-radius:3px;
-	opacity:0;
-	-webkit-transition:opacity 2s;
-	-moz-transition:opacity 2s;
-	-ms-transition:opacity 2s;
-	-o-transition:opacity 2s;
-	transition:opacity 2s;
-}
 
-.space{
-	height: 30px;
-}
+/*@keyframes top_header {
+	from {
+
+	}
+	to {
+
+	}
+}*/

@@ -5,8 +5,8 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 		<meta name="author" content="<% for post in @getFilesAtPath("autores").toJSON(): %><%- post.name %>, <% end %>">
-		<meta name="description" content="Outras formas de entender a web">
-		<meta name="keywords" content="desenvolvimento web, front-end, back-end, html5, css3, javascript, php, libraries, frameworks">
+		<meta name="description" content="<%- @document.resumo %>">
+		<meta name="keywords" content="<%- @document.tags %>">
 		<meta name="robots" content="index">
 		<!-- Title -->
 	    <title><%= @document.title %></title>

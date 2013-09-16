@@ -8,6 +8,7 @@ tags: nova &nbsp;versão
 autor: Flowck
 resumo: Nova versão, novo endereço, nova interface seja bem vindo ao WebVisão. Depois de uns meses de desenvolvimento, engavetamento, esquecimento finalmente a nova versão apresentavel do WebVisão está dispónivel.  [...]
 date: 2013-08-23
+id: hello_world
 ---
 
 Nova versão, novo endereço e nova interface, seja bem vindo ao WebVisão. Depois de uns meses de desenvolvimento, engavetamento, esquecimento finalmente a nova versão apresentavel do WebVisão está dispónivel.

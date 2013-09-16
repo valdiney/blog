@@ -8,6 +8,7 @@ tags: gerar &nbsp;arquivos
 autor: Flowck
 resumo: Uma das grandes vantagens das linguagens server side é o poder que elas possuem em  manipular arquivos no servidor. É possível gerar, determinar o conteúdo do arquivo, deletar, e [...]
 date: 2012-12-18
+id: arquivos_php
 ---
 
 Uma das grandes vantagens das linguagens server side é o poder que elas possuem em  manipular arquivos no servidor. É possível gerar, determinar o conteúdo do arquivo, deletar, e ainda comprimir o mesmo arquivo.

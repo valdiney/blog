@@ -8,6 +8,7 @@ tags: js &nbsp;evolução
 autor: Flowck
 resumo: Nunca pensei que houvesse necessidade de abordar esse assunto dentro da comunidade angolana de desenvolvedores web, sempre pensei que o acesso fácil a informação já era suficiente para moldar a visão que  [...]
 date: 2013-07-24
+id: js_serio
 ---
 
 Nunca pensei que houvesse necessidade de abordar esse assunto dentro da comunidade angolana de desenvolvedores web, sempre pensei que o acesso fácil a informação já era suficiente para moldar a visão que muitos programadores têm sobre o Javascript.

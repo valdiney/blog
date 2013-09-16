@@ -7,6 +7,7 @@ thumb: img/ie_thumb.jpg
 resumo: HTML5 e CSS3 sugiram e o Flash vai desaparecendo cada vez mais. Apesar das grandes vantagens que estas duas linguagens possuem sobre o seu concorrente, elas ainda perdem quando o assunto é compatibilidade [...]
 autor: Flowck
 date: 2012-10-09
+id: ie_fartos
 ---
 
 É sonho de todo o desenvolvedor web viver num mundo em que os usuários apenas acessam a web com browsers modernos, dentre eles que nenhum estivesse a utilizar o IE, porque mesmo na sua 9ª versão ainda apresenta muitas debilidades para renderizar ou reconhecer algumas funcionalidades dos queridos HTML5 e CSS3.

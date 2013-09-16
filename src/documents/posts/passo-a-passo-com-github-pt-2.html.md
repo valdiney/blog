@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Passo a passo com o Github - pt. 1
-tags: cv &nbsp;github
-image: img/gitOctocat.jpg
-thumb: img/gitOctocat_thumb.jpg
+title: Passo a passo com o Github - pt. 2
+tags: projecto &nbsp;github
+image: img/gitRepository.jpg
+thumb: img/gitRepository_thumb.jpg
 resumo: Lançado em 2008 o Github se tornou moda entre os desenvolvedores de todo o mundo, isto porque ele agrega uma componente mais social com o sistema sistema de controle de versões[...]
 autor: Flowck
-date: 2013-09-11
-id: github_pt1
+date: 2013-09-16
+id: github_pt2
 ---
 
 Lançado em 2008 o Github se tornou moda entre os desenvolvedores de todo o mundo, isto porque ele agrega uma componente mais social com o sistema sistema de controle de versões [Git](http://git-scm.com/).

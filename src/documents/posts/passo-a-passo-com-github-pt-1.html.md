@@ -51,6 +51,6 @@ Se você obtiver o mesmo resultado do gif animado então você está permanenete
 
 Agora entenda o que aconteceu: uma chave única foi gerada pelo comando ssh-keygen na nossa maquina, em seguida esta chave foi adicionada à nossa conta no github conectando assim a nossa conta github ao nosso computador. Com isso toda vez que nós tentarmos nos comunicar com os servidores do github será feito uma leitura da chave na nossa maquina e será comparada com a chave na nossa sua conta.
 
-## CONSIDERÇÕES FINAIS
+### CONSIDERÇÕES FINAIS
 
-Neste artigo foi apresentado uma das formas de se conectar ao github usando o protocolo ssh via terminal, com essa configuração você está apto para começar a executar comandos git, assunto que veremos no proximo post.
+Neste artigo foi apresentado uma das formas de se conectar ao github usando o protocolo ssh via terminal, com essa configuração você está apto para começar a executar comandos git, assunto que veremos no [proximo post](passo-a-passo-com-github-pt-2.html).

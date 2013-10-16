@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Cone - suck that Bernard</title>
+	<style>
+		/*Base do cone #F7B137*/
+
+		.cone{
+			width: 150px;
+			height: 150px;
+			margin: 200px auto;
+			background-color: #E7A535;
+			border-radius: 15px;
+			box-shadow: 3px 3px 1px #AA7A29;
+			-webkit-transform: rotate(45deg);
+			-moz-transform: rotate(45deg);
+			-ms-transform: rotate(45deg);
+			-o-transform: rotate(45deg);
+			transform: rotate(45deg);
+		}
+		.cone:after{
+			content: "";
+			position: absolute;
+			overflow:hidden;
+			top: -50px;
+			left: -50px;
+			border-right: #F7B137 solid 150px;
+			border-top: transparent solid 75px;
+			border-bottom: transparent solid 75px;
+			-webkit-transform: rotate(45deg);
+			-moz-transform: rotate(45deg);
+			-ms-transform: rotate(45deg);
+			-o-transform: rotate(45deg);
+			transform: rotate(45deg);
+		}
+		.cone:before{
+			content: "";
+			position: absolute;
+			width: 155px;
+			height: 65px;
+			left: 10px;
+			top: 55px;
+			background: -webkit-linear-gradient(#E7A535 19px, #F7B137 4px);
+			border-bottom-left-radius: 100px; 
+			border-bottom-right-radius: 100px;
+			-webkit-transform: rotate(-45deg);
+			-moz-transform: rotate(-45deg);
+			-ms-transform: rotate(-45deg);
+			-o-transform: rotate(-45deg);
+			transform: rotate(-45deg);
+		}
+	</style>
+</head>
+<body>
+	<div class="cone"></div>
+</body>
+</html>

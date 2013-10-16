@@ -6,7 +6,7 @@ image: img/gitRepository.jpg
 thumb: img/gitRepository_thumb.jpg
 resumo: No primeiro post foi demonstrado como se conectar de forma permanente ao github usando o protocolo ssh, já neste post irei apresentar alguns comandos básicos do git, deste modo você já estará apto para versionar os seus projectos [...]
 autor: Flowck
-date: 2013-09-16
+date: 2013-9-16
 id: github_pt2
 ---
 

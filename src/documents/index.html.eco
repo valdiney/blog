@@ -17,7 +17,7 @@ title: WebVisão - Outras formas de entender a web
 		</div>
 		<aside class="info_about_post">
 			<ul>
-				<li><div class="data sprites"></div></li><li> Publicado em:&nbsp;<time id="post_date"><script> var data = new Date("<%- post.date %>"); document.write(data.getDate() + "-" + data.getMonth() + "-" + data.getFullYear()); </script></time>&nbsp;</li>
+				<li><div class="data sprites"></div></li><li> Publicado em:&nbsp;<time id="post_date"><script> var data = new Date("<%- post.date %>"); document.write(data.getDate() + "/" + data.getMonth() + "/" + data.getFullYear()); </script></time>&nbsp;</li>
 				<li><div class="tags sprites"></div></li><li>Tags: <%- post.tags %> &nbsp;</li>
 				<li><div class="comentarios sprites"></div></li><li>Comentarios: <a href="<%- post.url %>#disqus_thread" data-disqus-identifier="<%- post.id %>"> A carregar</a> &nbsp;</li>
 				<li><div class="autor sprites"></div></li><li><%- post.autor %></li>

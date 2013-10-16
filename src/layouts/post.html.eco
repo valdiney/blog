@@ -29,7 +29,17 @@
 						</ul>
 					</nav>
 					<div class="like">
-						<div class="fb-like" data-href="https://www.facebook.com/pages/WebVis%C3%A3o/449858405037749" data-width="100" data-layout="button_count" data-show-faces="false" data-send="false"></div>
+						<!-- Facebook Like button -->
+						<div class="fb_like">
+							<div class="fb-like" data-href="https://www.facebook.com/pages/WebVis%C3%A3o/449858405037749" data-width="100" data-layout="button_count" data-show-faces="false" data-send="false">
+							</div>
+						</div>
+						<!-- Github button -->
+						<div class="github_button">
+							<iframe src="http://ghbtns.com/github-btn.html?user=flowck&repo=blog&type=watch"
+	  						allowtransparency="true" frameborder="0" scrolling="0" width="55" height="20">
+	  						</iframe>
+						</div>
 					</div>
 			</header>
 		</div>

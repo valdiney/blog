@@ -9,6 +9,7 @@ autor: Flowck
 resumo: Nunca pensei que houvesse necessidade de abordar esse assunto dentro da comunidade angolana de desenvolvedores web, sempre pensei que o acesso fácil a informação já era suficiente para moldar a visão que  [...]
 date: 2013-10-11
 id: pseudo_elementos
+ignored: true
 ---
 
 A evolução do CSS é tão notória que cada vez mais o Javscript tem sido dispensado como elemento fundamental de uma interface rica e interactiva, exemplos notáveis são as novas propriedades inseridas no CSS3 como <i> opacity, transition, transform</i> etc.
@@ -45,7 +46,11 @@ Nada de estranho no código acima excepto a propriedade <i>content</i>, ela é u
 ```
 Não há diferenças nenhumas em usar dois pontos simples ou dois pontos duplos. Agora vamos para aplicação prática dos pseudo-elementos:
 
+### Cone em CSS
 
+![cone_css](../assets/img/coneCSS.jpg)
+
+Na onda de [desafios CSS](http://imasters.com.br/front-end/css/desafio-css-especial-cone/) lançados pelo [Bernard de Luna](https://twitter.com/bernarddeluna) no portal Imasters decidi participar num deles em que o objectivo era criar um cone em css com apenas um elemento html. Veja o [demo](../files/demos/cone.html)
 
 ### One-Div
 

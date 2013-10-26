@@ -51,11 +51,12 @@
 				<div class="post_title">
 					<h2><%- @document.title %></h2>
 				</div>
+				<!-- Imagem principal do post -->
+				<div class="img_highlight">
+					<img src="../assets/<%- @document.image %>">
+				</div>
+
 				<article class="post_full">
-					<!-- Imagem principal do post -->
-					<div class="post-img">
-						<img src="../assets/<%- @document.image %>" class="img_highlight">
-					</div>
 					<!-- Conteúdo do post -->
 					<div class="post-content" id="post-content">
 						<%- @content %>

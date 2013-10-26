@@ -218,9 +218,9 @@ h4{
 	color:#EEE;
 }
 
-.post_full .img_highlight{
+.img_highlight{
 	width: 900px;
-	margin: 0 auto;
+	height: 400px;
 }
 
 .post_full .post-content img{

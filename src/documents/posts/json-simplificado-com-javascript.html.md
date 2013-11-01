@@ -4,7 +4,7 @@ title: JSON simplificado com Javascript
 tags:  json &nbsp;js
 image: img/jsonBig.jpg
 thumb: img/json_thumb.jpg
-resumo: Com imaginação e criatividade podemos tornar poderosa qualquer linguagem de programação. O mesmo acontece com o Javascript que para alguns ainda é um mito o facto dela estár alem da criação de [...]
+resumo: Actualmente grandes sistemas web são desenvolvidos para prover dados para diversas plataformas seja web, mobile ou desktop. Atendendo aos diferentes tipos de plataformas e sistemas, a disponibilização destes dados deve ser realizada [...]
 autor: Flowck
 date: 2013-12-1
 id: json_javascript
@@ -14,7 +14,7 @@ Actualmente grandes sistemas web são desenvolvidos para prover dados para diver
 
 ### JaySon, que?
 
-JSON é a abreviação para <b>Javascript Object Notation</b>, ele é um formato de intercambio de dados em sistemas. Ele permite o armazenamento de informações através de objectos javscript com uma sintaxe de fácil compreensão e manipulação. 
+JSON é a abreviação para <b>Javascript Object Notation</b>, ele é um formato de intercambio de dados em sistemas. Ele permite o armazenamento de informações através de objectos javascript com uma sintaxe de fácil compreensão e manipulação. 
 
 OBS: Entenda a origem do JSON através do post [JSON. Da gambiarra ao padrão](http://loopinfinito.com.br/2013/06/18/json-de-gambiarra-a-padrao/) no LoopInfinito. 
 
@@ -64,7 +64,7 @@ Os dados do JSON também podem ser armazenados em um array que irá conter objec
 		"autores": "5"
 	}];
 ```
-Agora a forma de acesso a esses dados mudam um pouco, mas nada de muito grave porque o objecto <b>webvisao</b> armazena um array que contém multiplos objectos deste modo precisaremos seguir o formato <b>objecto[número de ordem do elemento no array].propriedade</b>:
+Agora a forma de acesso a esses dados mudam um pouco, mas nada de muito grave porque o objecto <b>webvisao</b> armazena um array que contém múltiplos objectos deste modo precisaremos seguir o formato <b>objecto[número de ordem do elemento no array].propriedade</b>:
 ``` javascript
 	// Caso 1
 	console.log(webvisao);
@@ -100,4 +100,8 @@ A forma de acessa-los não se difere muito das outras, é só seguir a de modo h
 
 ### Só isso? E na vida real?
 
-Normalmente os arquivos .json são disponíbilizados por Web APIs através de uma URL. No proximo post irei demonstar um caso real que envolve json provido por uma API, AJAX para ler o arquivo .json e a manipulação do mesmo.
+Normalmente os arquivos .json são disponibilizados por Web APIs através de uma URL. No próximo post irei demonstrar um caso real que envolve json provido por uma API, AJAX para ler o arquivo .json e a manipulação do mesmo.
+
+### Referencias
+* [Documentação oficial](www.json.org)
+* [JSON: What It Is, How It Works, & How to Use It](http://www.copterlabs.com/blog/json-what-it-is-how-it-works-how-to-use-it/)

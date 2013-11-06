@@ -1,0 +1,393 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'docpad@6',
+1 verbose cli   '--save' ]
+2 info using npm@1.2.18
+3 info using node@v0.10.6
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose read json C:\Users\Flowck\Documents\GitHub\blog\package.json
+6 verbose read json C:\Users\Flowck\Documents\GitHub\blog\node_modules\docpad-plugin-eco\package.json
+7 verbose read json C:\Users\Flowck\Documents\GitHub\blog\node_modules\docpad-plugin-highlightjs\package.json
+8 verbose read json C:\Users\Flowck\Documents\GitHub\blog\node_modules\docpad-plugin-marked\package.json
+9 verbose read json C:\Users\Flowck\Documents\GitHub\blog\node_modules\docpad-plugin-moment\package.json
+10 verbose read json C:\Users\Flowck\Documents\GitHub\blog\node_modules\docpad-plugin-paged\package.json
+11 verbose from cache C:\Users\Flowck\Documents\GitHub\blog\package.json
+12 verbose readDependencies using package.json deps
+13 verbose cache add [ 'docpad@6', null ]
+14 verbose cache add name=undefined spec="docpad@6" args=["docpad@6",null]
+15 verbose parsed url { protocol: null,
+15 verbose parsed url   slashes: null,
+15 verbose parsed url   auth: null,
+15 verbose parsed url   host: null,
+15 verbose parsed url   port: null,
+15 verbose parsed url   hostname: null,
+15 verbose parsed url   hash: null,
+15 verbose parsed url   search: null,
+15 verbose parsed url   query: null,
+15 verbose parsed url   pathname: 'docpad@6',
+15 verbose parsed url   path: 'docpad@6',
+15 verbose parsed url   href: 'docpad@6' }
+16 verbose cache add name="docpad" spec="6" args=["docpad","6"]
+17 verbose parsed url { protocol: null,
+17 verbose parsed url   slashes: null,
+17 verbose parsed url   auth: null,
+17 verbose parsed url   host: null,
+17 verbose parsed url   port: null,
+17 verbose parsed url   hostname: null,
+17 verbose parsed url   hash: null,
+17 verbose parsed url   search: null,
+17 verbose parsed url   query: null,
+17 verbose parsed url   pathname: '6',
+17 verbose parsed url   path: '6',
+17 verbose parsed url   href: '6' }
+18 verbose addNamed [ 'docpad', '6' ]
+19 verbose addNamed [ null, '>=6.0.0- <7.0.0-' ]
+20 silly lockFile b44de181-docpad-6 docpad@6
+21 verbose lock docpad@6 C:\Users\Flowck\AppData\Roaming\npm-cache\b44de181-docpad-6.lock
+22 silly addNameRange { name: 'docpad', range: '>=6.0.0- <7.0.0-', hasData: false }
+23 verbose url raw docpad
+24 verbose url resolving [ 'https://registry.npmjs.org/', './docpad' ]
+25 verbose url resolved https://registry.npmjs.org/docpad
+26 info trying registry request attempt 1 at 11:31:21
+27 verbose etag "866E7EZDMV52UH47VB9CCG4M1"
+28 http GET https://registry.npmjs.org/docpad
+29 http 200 https://registry.npmjs.org/docpad
+30 silly registry.get cb [ 200,
+30 silly registry.get   { vary: 'Accept',
+30 silly registry.get     server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+30 silly registry.get     etag: '"50WCL2XBT7WOQZDSU6RYZ6Y89"',
+30 silly registry.get     date: 'Sat, 02 Nov 2013 10:31:39 GMT',
+30 silly registry.get     'content-type': 'application/json',
+30 silly registry.get     'content-length': '2631092' } ]
+31 silly addNameRange number 2 { name: 'docpad', range: '>=6.0.0- <7.0.0-', hasData: true }
+32 silly addNameRange versions [ 'docpad',
+32 silly addNameRange   [ '0.1.0',
+32 silly addNameRange     '0.4.0',
+32 silly addNameRange     '0.5.0',
+32 silly addNameRange     '0.5.1',
+32 silly addNameRange     '0.6.0',
+32 silly addNameRange     '0.6.1',
+32 silly addNameRange     '0.7.0',
+32 silly addNameRange     '0.8.0',
+32 silly addNameRange     '0.8.1',
+32 silly addNameRange     '0.8.3',
+32 silly addNameRange     '0.9.0',
+32 silly addNameRange     '0.9.1',
+32 silly addNameRange     '0.9.2',
+32 silly addNameRange     '0.9.3',
+32 silly addNameRange     '0.9.4',
+32 silly addNameRange     '0.9.5',
+32 silly addNameRange     '0.9.6',
+32 silly addNameRange     '0.9.7',
+32 silly addNameRange     '0.9.8',
+32 silly addNameRange     '0.9.9',
+32 silly addNameRange     '0.9.10',
+32 silly addNameRange     '0.9.11',
+32 silly addNameRange     '0.9.12',
+32 silly addNameRange     '0.9.13',
+32 silly addNameRange     '0.9.14',
+32 silly addNameRange     '0.9.15',
+32 silly addNameRange     '0.9.16',
+32 silly addNameRange     '0.9.17',
+32 silly addNameRange     '0.9.18',
+32 silly addNameRange     '0.9.19',
+32 silly addNameRange     '0.9.20',
+32 silly addNameRange     '0.9.21',
+32 silly addNameRange     '0.9.22',
+32 silly addNameRange     '0.10.0',
+32 silly addNameRange     '1.0.0',
+32 silly addNameRange     '1.0.1',
+32 silly addNameRange     '1.0.2',
+32 silly addNameRange     '1.0.3',
+32 silly addNameRange     '1.1.1',
+32 silly addNameRange     '1.1.2',
+32 silly addNameRange     '1.1.3',
+32 silly addNameRange     '1.1.4',
+32 silly addNameRange     '1.1.6',
+32 silly addNameRange     '1.2.0',
+32 silly addNameRange     '1.2.1',
+32 silly addNameRange     '1.2.2',
+32 silly addNameRange     '1.2.3',
+32 silly addNameRange     '1.2.4',
+32 silly addNameRange     '1.2.5',
+32 silly addNameRange     '1.3.0',
+32 silly addNameRange     '1.3.1',
+32 silly addNameRange     '1.3.2',
+32 silly addNameRange     '1.3.3',
+32 silly addNameRange     '1.3.5',
+32 silly addNameRange     '1.3.6',
+32 silly addNameRange     '1.3.7',
+32 silly addNameRange     '1.3.8',
+32 silly addNameRange     '1.4.0',
+32 silly addNameRange     '1.4.1',
+32 silly addNameRange     '2.0.0',
+32 silly addNameRange     '2.0.1',
+32 silly addNameRange     '2.0.2',
+32 silly addNameRange     '2.1.0',
+32 silly addNameRange     '2.1.1',
+32 silly addNameRange     '2.2.0',
+32 silly addNameRange     '2.2.1',
+32 silly addNameRange     '2.3.0',
+32 silly addNameRange     '2.3.1',
+32 silly addNameRange     '2.3.2',
+32 silly addNameRange     '2.3.3',
+32 silly addNameRange     '2.3.4',
+32 silly addNameRange     '2.3.5',
+32 silly addNameRange     '2.3.6',
+32 silly addNameRange     '2.3.7',
+32 silly addNameRange     '2.3.8',
+32 silly addNameRange     '2.4.0',
+32 silly addNameRange     '2.5.0',
+32 silly addNameRange     '2.6.0',
+32 silly addNameRange     '2.6.1',
+32 silly addNameRange     '3.2.0',
+32 silly addNameRange     '3.2.1',
+32 silly addNameRange     '3.2.2',
+32 silly addNameRange     '3.2.3',
+32 silly addNameRange     '3.2.4',
+32 silly addNameRange     '3.2.5',
+32 silly addNameRange     '3.2.6',
+32 silly addNameRange     '3.2.7',
+32 silly addNameRange     '3.2.8',
+32 silly addNameRange     '3.3.0',
+32 silly addNameRange     '3.3.1',
+32 silly addNameRange     '3.3.2',
+32 silly addNameRange     '4.0.0',
+32 silly addNameRange     '4.0.1',
+32 silly addNameRange     '4.0.2',
+32 silly addNameRange     '4.0.3',
+32 silly addNameRange     '4.1.0',
+32 silly addNameRange     '4.1.1',
+32 silly addNameRange     '5.0.0',
+32 silly addNameRange     '5.0.1',
+32 silly addNameRange     '5.0.2',
+32 silly addNameRange     '5.0.3',
+32 silly addNameRange     '5.0.4',
+32 silly addNameRange     '5.0.5',
+32 silly addNameRange     '5.1.0',
+32 silly addNameRange     '5.1.1',
+32 silly addNameRange     '5.1.2',
+32 silly addNameRange     '5.2.0',
+32 silly addNameRange     '5.2.1',
+32 silly addNameRange     '5.2.2',
+32 silly addNameRange     '5.2.3',
+32 silly addNameRange     '5.2.4',
+32 silly addNameRange     '5.2.5',
+32 silly addNameRange     '6.0.0',
+32 silly addNameRange     '6.0.2',
+32 silly addNameRange     '6.0.3',
+32 silly addNameRange     '6.0.4',
+32 silly addNameRange     '6.0.5',
+32 silly addNameRange     '6.0.6',
+32 silly addNameRange     '6.0.7',
+32 silly addNameRange     '6.0.8',
+32 silly addNameRange     '6.0.9',
+32 silly addNameRange     '6.0.10',
+32 silly addNameRange     '6.0.11',
+32 silly addNameRange     '6.0.12',
+32 silly addNameRange     '6.0.13',
+32 silly addNameRange     '6.0.14',
+32 silly addNameRange     '6.1.0',
+32 silly addNameRange     '6.1.2',
+32 silly addNameRange     '6.1.3',
+32 silly addNameRange     '6.2.0',
+32 silly addNameRange     '6.3.0',
+32 silly addNameRange     '6.3.1',
+32 silly addNameRange     '6.3.2',
+32 silly addNameRange     '6.3.3',
+32 silly addNameRange     '6.4.0',
+32 silly addNameRange     '6.4.1',
+32 silly addNameRange     '6.4.2',
+32 silly addNameRange     '6.5.0-dev',
+32 silly addNameRange     '6.5.1-dev',
+32 silly addNameRange     '6.5.2-dev',
+32 silly addNameRange     '6.5.3-dev',
+32 silly addNameRange     '6.5.4',
+32 silly addNameRange     '6.5.5',
+32 silly addNameRange     '6.5.6',
+32 silly addNameRange     '6.5.7',
+32 silly addNameRange     '6.6.1',
+32 silly addNameRange     '6.6.2',
+32 silly addNameRange     '6.6.3',
+32 silly addNameRange     '6.6.4',
+32 silly addNameRange     '6.6.5',
+32 silly addNameRange     '6.6.6',
+32 silly addNameRange     '6.6.7',
+32 silly addNameRange     '6.6.8',
+32 silly addNameRange     '6.7.0',
+32 silly addNameRange     '6.7.1',
+32 silly addNameRange     '6.7.2',
+32 silly addNameRange     '6.7.3',
+32 silly addNameRange     '6.7.4',
+32 silly addNameRange     '6.8.0',
+32 silly addNameRange     '6.8.1',
+32 silly addNameRange     '6.8.2',
+32 silly addNameRange     '6.8.3',
+32 silly addNameRange     '6.8.4',
+32 silly addNameRange     '6.9.0',
+32 silly addNameRange     '6.9.1',
+32 silly addNameRange     '6.9.2',
+32 silly addNameRange     '6.10.0',
+32 silly addNameRange     '6.11.0',
+32 silly addNameRange     '6.11.1',
+32 silly addNameRange     '6.12.0',
+32 silly addNameRange     '6.12.1',
+32 silly addNameRange     '6.13.0',
+32 silly addNameRange     '6.13.1',
+32 silly addNameRange     '6.13.2',
+32 silly addNameRange     '6.13.3',
+32 silly addNameRange     '6.13.4',
+32 silly addNameRange     '6.14.0',
+32 silly addNameRange     '6.15.0',
+32 silly addNameRange     '6.16.0',
+32 silly addNameRange     '6.17.0',
+32 silly addNameRange     '6.17.1',
+32 silly addNameRange     '6.17.2',
+32 silly addNameRange     '6.17.3',
+32 silly addNameRange     '6.18.0',
+32 silly addNameRange     '6.19.0',
+32 silly addNameRange     '6.20.0',
+32 silly addNameRange     '6.20.1',
+32 silly addNameRange     '6.21.0',
+32 silly addNameRange     '6.21.1',
+32 silly addNameRange     '6.21.2',
+32 silly addNameRange     '6.21.3',
+32 silly addNameRange     '6.21.4',
+32 silly addNameRange     '6.21.5',
+32 silly addNameRange     '6.21.6',
+32 silly addNameRange     '6.21.7',
+32 silly addNameRange     '6.21.8',
+32 silly addNameRange     '6.21.9',
+32 silly addNameRange     '6.21.10',
+32 silly addNameRange     '6.22.0',
+32 silly addNameRange     '6.23.0',
+32 silly addNameRange     '6.24.0',
+32 silly addNameRange     '6.24.1',
+32 silly addNameRange     '6.24.2',
+32 silly addNameRange     '6.25.0',
+32 silly addNameRange     '6.26.0',
+32 silly addNameRange     '6.26.1',
+32 silly addNameRange     '6.26.2',
+32 silly addNameRange     '6.27.0',
+32 silly addNameRange     '6.28.0',
+32 silly addNameRange     '6.29.0',
+32 silly addNameRange     '6.30.0',
+32 silly addNameRange     '6.30.1',
+32 silly addNameRange     '6.30.2',
+32 silly addNameRange     '6.30.3',
+32 silly addNameRange     '6.30.4',
+32 silly addNameRange     '6.30.5',
+32 silly addNameRange     '6.31.0',
+32 silly addNameRange     '6.31.1',
+32 silly addNameRange     '6.31.2',
+32 silly addNameRange     '6.31.3',
+32 silly addNameRange     '6.31.4',
+32 silly addNameRange     '6.31.5',
+32 silly addNameRange     '6.31.6',
+32 silly addNameRange     '6.32.0',
+32 silly addNameRange     '6.33.0',
+32 silly addNameRange     '6.34.0',
+32 silly addNameRange     '6.34.1',
+32 silly addNameRange     '6.34.2',
+32 silly addNameRange     '6.35.0',
+32 silly addNameRange     '6.36.0',
+32 silly addNameRange     '6.36.1',
+32 silly addNameRange     '6.36.2',
+32 silly addNameRange     '6.37.0',
+32 silly addNameRange     '6.37.1',
+32 silly addNameRange     '6.38.0',
+32 silly addNameRange     '6.38.1',
+32 silly addNameRange     '6.39.0',
+32 silly addNameRange     '6.40.0',
+32 silly addNameRange     '6.41.0',
+32 silly addNameRange     '6.42.0',
+32 silly addNameRange     '6.42.1',
+32 silly addNameRange     '6.42.2',
+32 silly addNameRange     '6.42.3',
+32 silly addNameRange     '6.43.0',
+32 silly addNameRange     '6.43.1',
+32 silly addNameRange     '6.43.2',
+32 silly addNameRange     '6.44.0',
+32 silly addNameRange     '6.45.0',
+32 silly addNameRange     '6.45.1',
+32 silly addNameRange     '6.46.0',
+32 silly addNameRange     '6.46.1',
+32 silly addNameRange     '6.46.2',
+32 silly addNameRange     '6.46.3',
+32 silly addNameRange     '6.46.4',
+32 silly addNameRange     '6.46.5',
+32 silly addNameRange     '6.47.0',
+32 silly addNameRange     '6.48.0',
+32 silly addNameRange     '6.48.1',
+32 silly addNameRange     '6.49.0',
+32 silly addNameRange     '6.49.1',
+32 silly addNameRange     '6.49.2',
+32 silly addNameRange     '6.50.0',
+32 silly addNameRange     '6.50.1',
+32 silly addNameRange     '6.51.0',
+32 silly addNameRange     '6.51.1',
+32 silly addNameRange     '6.51.2',
+32 silly addNameRange     '6.51.3',
+32 silly addNameRange     '6.51.4',
+32 silly addNameRange     '6.51.5',
+32 silly addNameRange     '6.51.6',
+32 silly addNameRange     '6.52.0',
+32 silly addNameRange     '6.52.1',
+32 silly addNameRange     '6.52.2',
+32 silly addNameRange     '6.53.0',
+32 silly addNameRange     '6.53.1',
+32 silly addNameRange     '6.53.2',
+32 silly addNameRange     '6.53.3',
+32 silly addNameRange     '6.53.4',
+32 silly addNameRange     '6.54.0',
+32 silly addNameRange     '6.54.1',
+32 silly addNameRange     '6.54.2',
+32 silly addNameRange     '6.54.3',
+32 silly addNameRange     '6.54.4' ] ]
+33 verbose addNamed [ 'docpad', '6.54.4' ]
+34 verbose addNamed [ '6.54.4', '6.54.4' ]
+35 silly lockFile 3fb5dbcc-docpad-6-54-4 docpad@6.54.4
+36 verbose lock docpad@6.54.4 C:\Users\Flowck\AppData\Roaming\npm-cache\3fb5dbcc-docpad-6-54-4.lock
+37 silly lockFile 2a33fbb7-mjs-org-docpad-docpad-6-54-4-tgz https://registry.npmjs.org/docpad/-/docpad-6.54.4.tgz
+38 verbose lock https://registry.npmjs.org/docpad/-/docpad-6.54.4.tgz C:\Users\Flowck\AppData\Roaming\npm-cache\2a33fbb7-mjs-org-docpad-docpad-6-54-4-tgz.lock
+39 verbose addRemoteTarball [ 'https://registry.npmjs.org/docpad/-/docpad-6.54.4.tgz',
+39 verbose addRemoteTarball   '386ee3824700adc8d9bf0929fcfb9640ca9bc9e3' ]
+40 info retry fetch attempt 1 at 11:37:21
+41 verbose fetch to= C:\Users\Flowck\AppData\Local\Temp\npm-372\1383392241795-0.10755486856214702\tmp.tgz
+42 http GET https://registry.npmjs.org/docpad/-/docpad-6.54.4.tgz
+43 error fetch failed https://registry.npmjs.org/docpad/-/docpad-6.54.4.tgz
+44 info retry will retry, error on last attempt: Error: read ECONNRESET
+45 info retry fetch attempt 2 at 11:37:59
+46 verbose fetch to= C:\Users\Flowck\AppData\Local\Temp\npm-372\1383392241795-0.10755486856214702\tmp.tgz
+47 http GET https://registry.npmjs.org/docpad/-/docpad-6.54.4.tgz
+48 http 408 https://registry.npmjs.org/docpad/-/docpad-6.54.4.tgz
+49 error fetch failed https://registry.npmjs.org/docpad/-/docpad-6.54.4.tgz
+50 info retry will retry, error on last attempt: Error: 408 Request Time-out
+51 info retry fetch attempt 3 at 11:40:05
+52 verbose fetch to= C:\Users\Flowck\AppData\Local\Temp\npm-372\1383392241795-0.10755486856214702\tmp.tgz
+53 http GET https://registry.npmjs.org/docpad/-/docpad-6.54.4.tgz
+54 error fetch failed https://registry.npmjs.org/docpad/-/docpad-6.54.4.tgz
+55 silly lockFile 2a33fbb7-mjs-org-docpad-docpad-6-54-4-tgz https://registry.npmjs.org/docpad/-/docpad-6.54.4.tgz
+56 silly lockFile 2a33fbb7-mjs-org-docpad-docpad-6-54-4-tgz https://registry.npmjs.org/docpad/-/docpad-6.54.4.tgz
+57 silly lockFile 3fb5dbcc-docpad-6-54-4 docpad@6.54.4
+58 silly lockFile 3fb5dbcc-docpad-6-54-4 docpad@6.54.4
+59 silly lockFile b44de181-docpad-6 docpad@6
+60 silly lockFile b44de181-docpad-6 docpad@6
+61 error Error: getaddrinfo ENOTFOUND
+61 error     at errnoException (dns.js:37:11)
+61 error     at Object.onanswer [as oncomplete] (dns.js:124:16)
+62 error If you need help, you may report this log at:
+62 error     <http://github.com/isaacs/npm/issues>
+62 error or email it to:
+62 error     <npm-@googlegroups.com>
+63 error System Windows_NT 6.2.9200
+64 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "docpad@6" "--save"
+65 error cwd C:\Users\Flowck\Documents\GitHub\blog
+66 error node -v v0.10.6
+67 error npm -v 1.2.18
+68 error syscall getaddrinfo
+69 error code ENOTFOUND
+70 error errno ENOTFOUND
+71 verbose exit [ 1, true ]

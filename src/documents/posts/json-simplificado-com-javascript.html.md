@@ -102,6 +102,6 @@ A forma de acessa-los não se difere muito das outras, é só seguir a de modo h
 
 Normalmente os arquivos .json são disponibilizados por Web APIs através de uma URL. No próximo post irei demonstrar um caso real que envolve json provido por uma REST API, AJAX para ler o arquivo .json e a manipulação do mesmo.
 
-### Referencias
+### Referências
 * [Documentação oficial](www.json.org)
 * [JSON: What It Is, How It Works, & How to Use It](http://www.copterlabs.com/blog/json-what-it-is-how-it-works-how-to-use-it/)

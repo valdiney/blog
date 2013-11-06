@@ -218,21 +218,21 @@ h4{
 	color:#EEE;
 }
 
-.img_highlight{
+.img_highlight, .img_highlight img{
 	width: 900px;
 	height: 400px;
 }
 
 .post_full .post-content img{
 	display: block;
-	margin:0 auto;
+	margin: 0 auto;
 }
 
 .post_full .post-content{
-	width:90%;
-	margin:10px auto;
-	text-align:justify;
-	line-height:190%;
+	width: 90%;
+	margin: 10px auto;
+	text-align: justify;
+	line-height: 190%;
 }
 .post_full .post-content pre{
 	width:90%;

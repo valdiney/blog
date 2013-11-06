@@ -1,6 +1,8 @@
 ---
 layout: default
 isPage: true
+pagedCollection: 'pagination'
+pageSize: 3
 title: WebVisão - Outras formas de entender a web
 ---
 
@@ -26,6 +28,8 @@ title: WebVisão - Outras formas de entender a web
 	</div>
 </article>
 <% end %>
+
+
 <!-- Fim do wrap do contéudo -->
    <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */

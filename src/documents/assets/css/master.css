@@ -39,14 +39,11 @@ header{
 
 /* Social buttons*/
 .like{
-	width: 144px;
+	width: 200px;
 	height: 25px;
-	margin:3px auto;
+	margin: 3px auto;
 	cursor: pointer;
 	position: relative;
-}
-.like:hover{
-	background-position: -17px 0;
 }
 
 .like .github_button, .fb_like{
@@ -56,13 +53,13 @@ header{
 
 .like .fb_like{
 	width: 85px;
+	left: 10px;
 }
 
 .like .github_button{
 	width: 55px;
 	float: right;
-	left: 85px;
-	margin:0 0 0 0px;
+	left: 120px;
 }
 
 .like .github_button iframe{
